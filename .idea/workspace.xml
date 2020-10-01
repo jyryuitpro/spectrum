@@ -19,12 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="27. 상속에서 클래스 생성 과정과 형 변환">
-      <change afterPath="$PROJECT_DIR$/chapter07/src/inheritance/OverrideingTest.java" afterDir="false" />
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="28. 매서드 오버라이딩">
+      <change afterPath="$PROJECT_DIR$/chapter07/src/polymorphism/AnimalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter07/src/polymorphism/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter07/src/polymorphism/VIPCustomer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/src/inheritance/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/src/inheritance/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/src/inheritance/VIPCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/src/inheritance/VIPCustomer.java" afterDir="false" />
     </list>
+    <list id="b6d7502b-f223-4e08-ae99-6a43574ed047" name="28. 매서드 오버라이딩" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,11 +68,27 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="polymorphism" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter07\src\inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OverrideingTest">
+  <component name="RunManager" selected="Application.AnimalTest">
+    <configuration name="AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="polymorphism.AnimalTest" />
+      <module name="chapter07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inheritance.CustomerTest" />
       <module name="chapter07" />
@@ -111,6 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnimalTest" />
         <item itemvalue="Application.OverrideingTest" />
         <item itemvalue="Application.CustomerTest" />
       </list>
@@ -120,13 +138,16 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="" />
+      <changelist id="b6d7502b-f223-4e08-ae99-6a43574ed047" name="28. 매서드 오버라이딩" comment="" />
       <created>1601449322584</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601449322584</updated>
       <workItem from="1601449323633" duration="2017000" />
       <workItem from="1601509660445" duration="7000" />
-      <workItem from="1601519549805" duration="1556000" />
+      <workItem from="1601519549805" duration="1840000" />
+      <workItem from="1601589845792" duration="114000" />
+      <workItem from="1601595427214" duration="867000" />
     </task>
     <task id="LOCAL-00001" summary="27. 상속에서 클래스 생성 과정과 형 변환">
       <created>1601451298450</created>
@@ -135,7 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601451298450</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="28. 매서드 오버라이딩">
+      <created>1601521132139</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601521132139</updated>
+    </task>
+    <task id="LOCAL-00003" summary="28. 매서드 오버라이딩">
+      <created>1601521180124</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601521180124</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,20 +186,26 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="27. 상속에서 클래스 생성 과정과 형 변환" />
-    <option name="LAST_COMMIT_MESSAGE" value="27. 상속에서 클래스 생성 과정과 형 변환" />
+    <MESSAGE value="28. 매서드 오버라이딩" />
+    <option name="LAST_COMMIT_MESSAGE" value="28. 매서드 오버라이딩" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="711" y="325" key="#Project_Structure/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449325990" />
-    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser" timestamp="1601519800667">
+    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser" timestamp="1601595753198">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601519800667" />
+    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601595753198" />
+    <state x="1062" y="510" key="FileChooserDialogImpl" timestamp="1601589954422">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="1062" y="510" key="FileChooserDialogImpl/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601589954422" />
     <state x="729" y="648" width="624" height="205" key="Github.ShareDialog" timestamp="1601449342829">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -173,30 +214,38 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="456" key="Github.UntrackedFilesDialog/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449350525" />
-    <state width="2380" height="392" key="GridCell.Tab.0.bottom" timestamp="1601520594135">
+    <state width="2380" height="392" key="GridCell.Tab.0.bottom" timestamp="1601521405607">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="392" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601520594134" />
-    <state width="2380" height="392" key="GridCell.Tab.0.center" timestamp="1601520594134">
+    <state width="2380" height="392" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601521405607" />
+    <state width="2380" height="392" key="GridCell.Tab.0.center" timestamp="1601521405607">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="392" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601520594134" />
-    <state width="2380" height="392" key="GridCell.Tab.0.left" timestamp="1601520594134">
+    <state width="2380" height="392" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601521405607" />
+    <state width="2380" height="392" key="GridCell.Tab.0.left" timestamp="1601521405607">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="392" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601520594134" />
-    <state width="2380" height="392" key="GridCell.Tab.0.right" timestamp="1601520594134">
+    <state width="2380" height="392" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601521405607" />
+    <state width="2380" height="392" key="GridCell.Tab.0.right" timestamp="1601521405607">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="392" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601520594134" />
+    <state width="2380" height="392" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601521405607" />
     <state x="711" y="325" key="SettingsEditor" timestamp="1601520493730">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="711" y="325" key="SettingsEditor/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601520493730" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1601451308297">
+    <state x="1122" y="667" key="VCS.ChangelistChooser" timestamp="1601521146508">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601451308297" />
+    <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601521146508" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1601521186406">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601521186406" />
+    <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601595729979" />
     <state x="610" y="360" key="new project wizard" timestamp="1601449521556">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
