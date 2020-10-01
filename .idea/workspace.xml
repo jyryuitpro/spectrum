@@ -1,24 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter07/chapter07.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter07/src/inheritance/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter07/src/inheritance/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter07/src/inheritance/VIPCustomer.java" afterDir="false" />
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="27. 상속에서 클래스 생성 과정과 형 변환">
+      <change afterPath="$PROJECT_DIR$/chapter07/src/inheritance/OverrideingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/src/inheritance/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/src/inheritance/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/src/inheritance/VIPCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/src/inheritance/VIPCustomer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -50,9 +71,22 @@
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter07\src\inheritance" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.OverrideingTest">
     <configuration name="CustomerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inheritance.CustomerTest" />
+      <module name="chapter07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OverrideingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.OverrideingTest" />
       <module name="chapter07" />
       <extension name="coverage">
         <pattern>
@@ -77,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OverrideingTest" />
         <item itemvalue="Application.CustomerTest" />
       </list>
     </recent_temporary>
@@ -89,18 +124,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601449322584</updated>
-      <workItem from="1601449323633" duration="1787000" />
+      <workItem from="1601449323633" duration="2017000" />
+      <workItem from="1601509660445" duration="7000" />
+      <workItem from="1601519549805" duration="1556000" />
     </task>
+    <task id="LOCAL-00001" summary="27. 상속에서 클래스 생성 과정과 형 변환">
+      <created>1601451298450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601451298450</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="27. 상속에서 클래스 생성 과정과 형 변환" />
+    <option name="LAST_COMMIT_MESSAGE" value="27. 상속에서 클래스 생성 과정과 형 변환" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="711" y="325" key="#Project_Structure/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449325990" />
+    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser" timestamp="1601519800667">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601519800667" />
     <state x="729" y="648" width="624" height="205" key="Github.ShareDialog" timestamp="1601449342829">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -109,26 +173,30 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="456" key="Github.UntrackedFilesDialog/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449350525" />
-    <state width="2455" height="392" key="GridCell.Tab.0.bottom" timestamp="1601450546287">
+    <state width="2380" height="392" key="GridCell.Tab.0.bottom" timestamp="1601520594135">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2455" height="392" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601450546287" />
-    <state width="2455" height="392" key="GridCell.Tab.0.center" timestamp="1601450546287">
+    <state width="2380" height="392" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601520594134" />
+    <state width="2380" height="392" key="GridCell.Tab.0.center" timestamp="1601520594134">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2455" height="392" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601450546287" />
-    <state width="2455" height="392" key="GridCell.Tab.0.left" timestamp="1601450546287">
+    <state width="2380" height="392" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601520594134" />
+    <state width="2380" height="392" key="GridCell.Tab.0.left" timestamp="1601520594134">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2455" height="392" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601450546287" />
-    <state width="2455" height="392" key="GridCell.Tab.0.right" timestamp="1601450546287">
+    <state width="2380" height="392" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601520594134" />
+    <state width="2380" height="392" key="GridCell.Tab.0.right" timestamp="1601520594134">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2455" height="392" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601450546287" />
-    <state x="711" y="325" key="SettingsEditor" timestamp="1601450513515">
+    <state width="2380" height="392" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601520594134" />
+    <state x="711" y="325" key="SettingsEditor" timestamp="1601520493730">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="711" y="325" key="SettingsEditor/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601450513515" />
+    <state x="711" y="325" key="SettingsEditor/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601520493730" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1601451308297">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601451308297" />
     <state x="610" y="360" key="new project wizard" timestamp="1601449521556">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
