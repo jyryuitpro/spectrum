@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="29. 다형성 - 1">
-      <change afterPath="$PROJECT_DIR$/chapter07/src/polymorphism/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter07/src/polymorphism/GoldCustomer.java" afterDir="false" />
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="30. 다형성 - 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter07/src/polymorphism/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/src/polymorphism/AnimalTest.java" afterDir="false" />
     </list>
@@ -149,7 +147,9 @@
       <workItem from="1601589845792" duration="114000" />
       <workItem from="1601595427214" duration="1013000" />
       <workItem from="1601647203036" duration="52000" />
-      <workItem from="1601681108029" duration="1465000" />
+      <workItem from="1601681108029" duration="1545000" />
+      <workItem from="1601761661090" duration="12000" />
+      <workItem from="1601769363368" duration="911000" />
     </task>
     <task id="LOCAL-00001" summary="27. 상속에서 클래스 생성 과정과 형 변환">
       <created>1601451298450</created>
@@ -179,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601596359970</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="30. 다형성 - 2">
+      <created>1601682603628</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601682603628</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +208,8 @@
     <MESSAGE value="27. 상속에서 클래스 생성 과정과 형 변환" />
     <MESSAGE value="28. 매서드 오버라이딩" />
     <MESSAGE value="29. 다형성 - 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="29. 다형성 - 1" />
+    <MESSAGE value="30. 다형성 - 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="30. 다형성 - 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
@@ -224,22 +232,22 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="456" key="Github.UntrackedFilesDialog/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449350525" />
-    <state width="2380" height="372" key="GridCell.Tab.0.bottom" timestamp="1601596442670">
+    <state width="2380" height="195" key="GridCell.Tab.0.bottom" timestamp="1601770193236">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="372" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601596442670" />
-    <state width="2380" height="372" key="GridCell.Tab.0.center" timestamp="1601596442669">
+    <state width="2380" height="195" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601770193236" />
+    <state width="2380" height="195" key="GridCell.Tab.0.center" timestamp="1601770193236">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="372" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601596442669" />
-    <state width="2380" height="372" key="GridCell.Tab.0.left" timestamp="1601596442669">
+    <state width="2380" height="195" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601770193236" />
+    <state width="2380" height="195" key="GridCell.Tab.0.left" timestamp="1601770193236">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="372" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601596442669" />
-    <state width="2380" height="372" key="GridCell.Tab.0.right" timestamp="1601596442670">
+    <state width="2380" height="195" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601770193236" />
+    <state width="2380" height="195" key="GridCell.Tab.0.right" timestamp="1601770193236">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="372" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601596442670" />
+    <state width="2380" height="195" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601770193236" />
     <state x="711" y="325" key="SettingsEditor" timestamp="1601520493730">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -248,10 +256,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601521146508" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1601596371447">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1601682637243">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601596371447" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601682637243" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
