@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="37. 인터페이스란">
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="38. 인터페이스를 활용한 다형성 구현 - 1">
+      <change afterPath="$PROJECT_DIR$/chapter09/src/scheduler/LeastJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09/src/scheduler/PriorityAllocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09/src/scheduler/RoundRobin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09/src/scheduler/Scheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09/src/scheduler/SchedulerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter09/src/interfaceex/CalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter09/src/interfaceex/CalcTest.java" afterDir="false" />
     </list>
     <list id="b6d7502b-f223-4e08-ae99-6a43574ed047" name="28. 매서드 오버라이딩" comment="" />
     <list id="8d95c7cd-1b5c-42f6-810c-d904f80f3550" name="33. 추상클래스란" comment="" />
@@ -65,7 +69,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -176,7 +180,10 @@
       <workItem from="1602067914809" duration="2603000" />
       <workItem from="1602107986948" duration="1812000" />
       <workItem from="1602162183324" duration="709000" />
-      <workItem from="1602163089821" duration="511000" />
+      <workItem from="1602163089821" duration="1318000" />
+      <workItem from="1602164613351" duration="637000" />
+      <workItem from="1602167614027" duration="13000" />
+      <workItem from="1602196115857" duration="1378000" />
     </task>
     <task id="LOCAL-00001" summary="27. 상속에서 클래스 생성 과정과 형 변환">
       <created>1601451298450</created>
@@ -255,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602109695150</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="38. 인터페이스를 활용한 다형성 구현 - 1">
+      <created>1602163620288</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602163620288</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,17 +297,18 @@
     <MESSAGE value="35. 템플릿 메서드 활용하기" />
     <MESSAGE value="33. 추상클래스란" />
     <MESSAGE value="37. 인터페이스란" />
-    <option name="LAST_COMMIT_MESSAGE" value="37. 인터페이스란" />
+    <MESSAGE value="38. 인터페이스를 활용한 다형성 구현 - 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="38. 인터페이스를 활용한 다형성 구현 - 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="711" y="325" key="#Project_Structure/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449325990" />
-    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser" timestamp="1602109118382">
+    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser" timestamp="1602196799275">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602109118382" />
+    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602196799275" />
     <state x="1062" y="510" key="FileChooserDialogImpl" timestamp="1601589954422">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -322,18 +337,18 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602109817646" />
-    <state x="711" y="325" key="SettingsEditor" timestamp="1602108663758">
+    <state x="711" y="325" key="SettingsEditor" timestamp="1602164641386">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="711" y="325" key="SettingsEditor/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602108663758" />
+    <state x="711" y="325" key="SettingsEditor/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602164641386" />
     <state x="1122" y="667" key="VCS.ChangelistChooser" timestamp="1602109676703">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602109676703" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1602109712100">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1602164379828">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602109712100" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602164379828" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
