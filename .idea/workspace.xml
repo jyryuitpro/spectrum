@@ -19,15 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="40. 인터페이스의 요소들 - 1">
-      <change afterPath="$PROJECT_DIR$/chapter09/src/bookshelf/BookShelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/src/bookshelf/BookShelfTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/src/bookshelf/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/src/bookshelf/Shelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/src/interfaceex/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/src/interfaceex/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/src/interfaceex/X.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter09/src/interfaceex/Y.java" afterDir="false" />
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="41. 인터페이스의 요소들 - 2">
+      <change afterPath="$PROJECT_DIR$/chapter10/chapter10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/object/ToStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="b6d7502b-f223-4e08-ae99-6a43574ed047" name="28. 매서드 오버라이딩" comment="" />
@@ -82,7 +77,7 @@
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter07\src\inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BookShelfTest">
+  <component name="RunManager" selected="Application.ToStringTest">
     <configuration name="BookShelfTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bookshelf.BookShelfTest" />
       <module name="chapter09" />
@@ -102,19 +97,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="interfaceex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="template.CarTest" />
-      <module name="chapter08" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,24 +130,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="ToStringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="object.ToStringTest" />
+      <module name="chapter10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="object.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ToStringTest" />
         <item itemvalue="Application.BookShelfTest" />
         <item itemvalue="Application.CustomerTest" />
         <item itemvalue="Application.CalcTest" />
         <item itemvalue="Application.MainBoardPlay" />
-        <item itemvalue="Application.CarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +196,8 @@
       <workItem from="1602167614027" duration="13000" />
       <workItem from="1602196115857" duration="1441000" />
       <workItem from="1602200413455" duration="15000" />
-      <workItem from="1602279595222" duration="2450000" />
+      <workItem from="1602279595222" duration="2666000" />
+      <workItem from="1602366689896" duration="778000" />
     </task>
     <task id="LOCAL-00001" summary="27. 상속에서 클래스 생성 과정과 형 변환">
       <created>1601451298450</created>
@@ -299,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602281387331</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="41. 인터페이스의 요소들 - 2">
+      <created>1602282251834</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602282251834</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,17 +335,18 @@
     <MESSAGE value="38. 인터페이스를 활용한 다형성 구현 - 1" />
     <MESSAGE value="39. 인터페이스를 활용한 다형성 구현 - 2" />
     <MESSAGE value="40. 인터페이스의 요소들 - 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="40. 인터페이스의 요소들 - 1" />
+    <MESSAGE value="41. 인터페이스의 요소들 - 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="41. 인터페이스의 요소들 - 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="711" y="325" key="#Project_Structure/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449325990" />
-    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser" timestamp="1602281949532">
+    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser" timestamp="1602367425975">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602281949532" />
+    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602367425975" />
     <state x="1062" y="510" key="FileChooserDialogImpl" timestamp="1601589954422">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -353,41 +359,41 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="456" key="Github.UntrackedFilesDialog/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449350525" />
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1602282181794">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1602367281115">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602282181794" />
-    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1602282181794">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602367281115" />
+    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1602367281115">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602282181794" />
-    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1602282181794">
+    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602367281115" />
+    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1602367281114">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602282181794" />
-    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1602282181794">
+    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602367281114" />
+    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1602367281115">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602282181794" />
-    <state x="711" y="325" key="SettingsEditor" timestamp="1602280827204">
+    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602367281115" />
+    <state x="711" y="325" key="SettingsEditor" timestamp="1602366746983">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="711" y="325" key="SettingsEditor/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602280827204" />
+    <state x="711" y="325" key="SettingsEditor/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602366746983" />
     <state x="1122" y="667" key="VCS.ChangelistChooser" timestamp="1602109676703">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602109676703" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1602281398014">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1602282257286">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602281398014" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602282257286" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601595729979" />
-    <state x="610" y="360" key="new project wizard" timestamp="1602108660444">
+    <state x="610" y="360" key="new project wizard" timestamp="1602366744274">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="610" y="360" key="new project wizard/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602108660444" />
+    <state x="610" y="360" key="new project wizard/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602366744274" />
   </component>
 </project>
