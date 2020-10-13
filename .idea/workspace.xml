@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="45. Object 클래스 - 3">
-      <change afterPath="$PROJECT_DIR$/chapter10/src/classex/ClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter10/src/classex/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter10/src/classex/StringClassTest.java" afterDir="false" />
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="46. Class클래스">
+      <change afterPath="$PROJECT_DIR$/chapter11/chapter11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/src/string/StringBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/src/string/StringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/src/string/StringTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="b6d7502b-f223-4e08-ae99-6a43574ed047" name="28. 매서드 오버라이딩" comment="" />
@@ -77,20 +79,7 @@
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter07\src\inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClassTest">
-    <configuration name="BookShelfTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bookshelf.BookShelfTest" />
-      <module name="chapter09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bookshelf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StringBuilderTest">
     <configuration name="ClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classex.ClassTest" />
       <module name="chapter10" />
@@ -104,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="object.EqualsTest" />
-      <module name="chapter10" />
+    <configuration name="StringBuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.StringBuilderTest" />
+      <module name="chapter11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="object.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToStringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="object.ToStringTest" />
-      <module name="chapter10" />
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.StringTest" />
+      <module name="chapter11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="object.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,13 +132,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.StringTest2" />
+      <module name="chapter11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringBuilderTest" />
+        <item itemvalue="Application.StringTest2" />
+        <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.ClassTest" />
         <item itemvalue="Application.StringClassTest" />
-        <item itemvalue="Application.ToStringTest" />
-        <item itemvalue="Application.EqualsTest" />
-        <item itemvalue="Application.BookShelfTest" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +199,8 @@
       <workItem from="1602279595222" duration="2666000" />
       <workItem from="1602366689896" duration="3632000" />
       <workItem from="1602498298645" duration="2506000" />
+      <workItem from="1602502162215" duration="182000" />
+      <workItem from="1602590579029" duration="2301000" />
     </task>
     <task id="LOCAL-00001" summary="27. 상속에서 클래스 생성 과정과 형 변환">
       <created>1601451298450</created>
@@ -313,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602370246707</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="46. Class클래스">
+      <created>1602502185047</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1602502185047</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +370,8 @@
     <MESSAGE value="43. Object 클래스 - 1" />
     <MESSAGE value="Object 클래스 - 2" />
     <MESSAGE value="45. Object 클래스 - 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="45. Object 클래스 - 3" />
+    <MESSAGE value="46. Class클래스" />
+    <option name="LAST_COMMIT_MESSAGE" value="46. Class클래스" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
@@ -371,41 +394,41 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="456" key="Github.UntrackedFilesDialog/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449350525" />
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1602502140957">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1602592876292">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602502140957" />
-    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1602502140957">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602592876292" />
+    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1602592876292">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602502140957" />
-    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1602502140956">
+    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602592876292" />
+    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1602592876292">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602502140956" />
-    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1602502140957">
+    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602592876292" />
+    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1602592876292">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602502140957" />
-    <state x="711" y="325" key="SettingsEditor" timestamp="1602498978635">
+    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602592876292" />
+    <state x="711" y="325" key="SettingsEditor" timestamp="1602591222407">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="711" y="325" key="SettingsEditor/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602498978635" />
+    <state x="711" y="325" key="SettingsEditor/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602591222407" />
     <state x="1122" y="667" key="VCS.ChangelistChooser" timestamp="1602109676703">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602109676703" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1602370251296">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1602502205104">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602370251296" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602502205104" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601595729979" />
-    <state x="610" y="360" key="new project wizard" timestamp="1602366744274">
+    <state x="886" y="507" key="new project wizard" timestamp="1602591219509">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="610" y="360" key="new project wizard/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602366744274" />
+    <state x="886" y="507" key="new project wizard/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602591219509" />
   </component>
 </project>
