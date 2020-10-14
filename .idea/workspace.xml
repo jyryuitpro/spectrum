@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="48. String, Wrapper 클래스">
-      <change afterPath="$PROJECT_DIR$/chapter11/src/generic/GenericPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/src/generic/GenericPrinterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/src/generic/Material.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/src/generic/Plastic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/src/generic/Powder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/src/generic/Water.java" afterDir="false" />
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="49. 제네릭 프로그래밍">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="b6d7502b-f223-4e08-ae99-6a43574ed047" name="28. 매서드 오버라이딩" comment="" />
@@ -146,17 +140,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GenericPrinterTest" />
@@ -201,7 +184,8 @@
       <workItem from="1602366689896" duration="3632000" />
       <workItem from="1602498298645" duration="2506000" />
       <workItem from="1602502162215" duration="182000" />
-      <workItem from="1602590579029" duration="3838000" />
+      <workItem from="1602590579029" duration="4472000" />
+      <workItem from="1602674819524" duration="1021000" />
     </task>
     <task id="LOCAL-00001" summary="27. 상속에서 클래스 생성 과정과 형 변환">
       <created>1601451298450</created>
@@ -343,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602593040986</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="49. 제네릭 프로그래밍">
+      <created>1602594597031</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1602594597031</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +371,8 @@
     <MESSAGE value="45. Object 클래스 - 3" />
     <MESSAGE value="46. Class클래스" />
     <MESSAGE value="48. String, Wrapper 클래스" />
-    <option name="LAST_COMMIT_MESSAGE" value="48. String, Wrapper 클래스" />
+    <MESSAGE value="49. 제네릭 프로그래밍" />
+    <option name="LAST_COMMIT_MESSAGE" value="49. 제네릭 프로그래밍" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
@@ -403,22 +395,22 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="456" key="Github.UntrackedFilesDialog/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449350525" />
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1602594282224">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1602601668731">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602594282224" />
-    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1602594282224">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602601668731" />
+    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1602601668731">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602594282224" />
-    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1602594282224">
+    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602601668731" />
+    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1602601668731">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602594282224" />
-    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1602594282224">
+    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602601668731" />
+    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1602601668731">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602594282224" />
+    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602601668731" />
     <state x="711" y="325" key="SettingsEditor" timestamp="1602591222407">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -427,10 +419,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602109676703" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1602593045741">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1602594601126">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602593045741" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602594601126" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
