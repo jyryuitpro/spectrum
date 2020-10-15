@@ -1,6 +1,9 @@
-package set;
+package collection.treeset;
 
-public class Member {
+import java.util.Comparator;
+
+//public class Member implements Comparable<Member> {
+public class Member implements Comparator<Member> {
 
     private int memberId;
 
@@ -41,6 +44,11 @@ public class Member {
     }
 
     @Override
+    public int compare(Member memberThis, Member member) {
+        return (memberThis.memberId - member.memberId);
+    }
+
+    @Override
     public boolean equals(Object obj) {
         if (obj instanceof Member) {
             Member member = (Member)obj;
@@ -49,4 +57,10 @@ public class Member {
         }
         return false;
     }
+
+//    @Override
+//    public int compareTo(Member member) {
+////        return (this.memberId - member.memberId) * (-1);
+//        return this.memberName.compareTo(member.getMemberName());
+//    }
 }
