@@ -19,8 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="51. List 인터페이스">
-      <change afterPath="$PROJECT_DIR$/chapter11/src/collection/StackTest.java" afterDir="false" />
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="52. Stack과 Queue 구현하기">
+      <change afterPath="$PROJECT_DIR$/chapter11/src/set/HashSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/src/set/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/src/set/MemberHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/src/set/MemberHashSetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="b6d7502b-f223-4e08-ae99-6a43574ed047" name="28. 매서드 오버라이딩" comment="" />
@@ -69,19 +72,33 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="set" />
       <recent name="polymorphism" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter07\src\inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StackTest">
+  <component name="RunManager" selected="Application.MemberHashSetTest">
     <configuration name="GenericPrinterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generic.GenericPrinterTest" />
       <module name="chapter11" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="generic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set.HashSetTest" />
+      <module name="chapter11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,38 +119,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemberHashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set.MemberHashSetTest" />
+      <module name="chapter11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.StackTest" />
       <module name="chapter11" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringBuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.StringBuilderTest" />
-      <module name="chapter11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.StringTest2" />
-      <module name="chapter11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MemberHashSetTest" />
+        <item itemvalue="Application.HashSetTest" />
         <item itemvalue="Application.StackTest" />
         <item itemvalue="Application.LinkedListTest" />
         <item itemvalue="Application.GenericPrinterTest" />
-        <item itemvalue="Application.StringBuilderTest" />
-        <item itemvalue="Application.StringTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +202,7 @@
       <workItem from="1602502162215" duration="182000" />
       <workItem from="1602590579029" duration="4472000" />
       <workItem from="1602674819524" duration="3343000" />
-      <workItem from="1602722223069" duration="395000" />
+      <workItem from="1602722223069" duration="2304000" />
     </task>
     <task id="LOCAL-00001" summary="27. 상속에서 클래스 생성 과정과 형 변환">
       <created>1601451298450</created>
@@ -361,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602677489939</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="52. Stack과 Queue 구현하기">
+      <created>1602722929239</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1602722929239</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,17 +412,18 @@
     <MESSAGE value="49. 제네릭 프로그래밍" />
     <MESSAGE value="50. 컬렉션 프레임워크란" />
     <MESSAGE value="51. List 인터페이스" />
-    <option name="LAST_COMMIT_MESSAGE" value="51. List 인터페이스" />
+    <MESSAGE value="52. Stack과 Queue 구현하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="52. Stack과 Queue 구현하기" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="711" y="325" key="#Project_Structure/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449325990" />
-    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser" timestamp="1602676866367">
+    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser" timestamp="1602724113927">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602676866367" />
+    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602724113927" />
     <state x="1062" y="510" key="FileChooserDialogImpl" timestamp="1601589954422">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -424,22 +436,22 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="456" key="Github.UntrackedFilesDialog/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449350525" />
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1602680242068">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1602724236433">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602680242068" />
-    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1602680242068">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602724236433" />
+    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1602724236433">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602680242068" />
-    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1602680242067">
+    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602724236433" />
+    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1602724236432">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602680242067" />
-    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1602680242068">
+    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602724236432" />
+    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1602724236433">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602680242068" />
+    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602724236433" />
     <state x="711" y="325" key="SettingsEditor" timestamp="1602591222407">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -448,10 +460,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602109676703" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1602677495460">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1602722933270">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602677495460" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602722933270" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
