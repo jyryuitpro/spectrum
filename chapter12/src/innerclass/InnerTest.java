@@ -25,6 +25,7 @@ class OutClass {
         inClass.inTest();
     }
 
+//    정적 내부 클래스
     static class InStaticClass {
         int inNum = 100;
         static int sInNum = 200;

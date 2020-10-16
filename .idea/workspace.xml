@@ -19,11 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="55. Map 인터페이스">
-      <change afterPath="$PROJECT_DIR$/chapter12/chapter12.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter12/src/innerclass/InnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="56. 내부 클래스 - 1">
+      <change afterPath="$PROJECT_DIR$/chapter12/src/innerclass/AnonymousInnerClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter12/src/innerclass/LocalInnerClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter12/src/innerclass/InnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter12/src/innerclass/InnerTest.java" afterDir="false" />
     </list>
     <list id="b6d7502b-f223-4e08-ae99-6a43574ed047" name="28. 매서드 오버라이딩" comment="" />
     <list id="8d95c7cd-1b5c-42f6-810c-d904f80f3550" name="33. 추상클래스란" comment="" />
@@ -64,33 +64,34 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="14" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter11/src/collection/treemap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter12/src/innerclass" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter11\src\collection\treemap" />
-      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter11\src\collection\treeset" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter07\src\inheritance" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="collection.hashmap" />
       <recent name="set" />
       <recent name="polymorphism" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter07\src\inheritance" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter12\src\innerclass" />
+      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter11\src\collection\treemap" />
+      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter11\src\collection\treeset" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InnerTest">
-    <configuration name="ComparatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.treeset.ComparatorTest" />
-      <module name="chapter11" />
+  <component name="RunManager" selected="Application.AnonymousInnerClassTest">
+    <configuration name="AnonymousInnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="innerclass.AnonymousInnerClassTest" />
+      <module name="chapter12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.treeset.*" />
+          <option name="PATTERN" value="innerclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,6 +101,19 @@
     </configuration>
     <configuration name="InnerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="innerclass.InnerTest" />
+      <module name="chapter12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="innerclass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocalInnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="innerclass.LocalInnerClassTest" />
       <module name="chapter12" />
       <extension name="coverage">
         <pattern>
@@ -137,19 +151,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberTreeSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.treeset.MemberTreeSetTest" />
-      <module name="chapter11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.treeset.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -163,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnonymousInnerClassTest" />
+        <item itemvalue="Application.LocalInnerClassTest" />
         <item itemvalue="Application.InnerTest" />
         <item itemvalue="Application.MemberTreeMapTest" />
         <item itemvalue="Application.MemberHashMapTest" />
-        <item itemvalue="Application.ComparatorTest" />
-        <item itemvalue="Application.MemberTreeSetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +210,7 @@
       <workItem from="1602674819524" duration="3343000" />
       <workItem from="1602722223069" duration="2363000" />
       <workItem from="1602798839972" duration="3911000" />
-      <workItem from="1602887110362" duration="1076000" />
+      <workItem from="1602887110362" duration="2369000" />
     </task>
     <task id="LOCAL-00001" summary="27. 상속에서 클래스 생성 과정과 형 변환">
       <created>1601451298450</created>
@@ -400,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602801688211</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="56. 내부 클래스 - 1">
+      <created>1602888381724</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1602888381724</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,7 +427,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="27. 상속에서 클래스 생성 과정과 형 변환" />
     <MESSAGE value="28. 매서드 오버라이딩" />
     <MESSAGE value="29. 다형성 - 1" />
     <MESSAGE value="30. 다형성 - 2" />
@@ -444,17 +451,18 @@
     <MESSAGE value="53. Set 인터페이스 - 1" />
     <MESSAGE value="54. Set 인터페이스 - 2" />
     <MESSAGE value="55. Map 인터페이스" />
-    <option name="LAST_COMMIT_MESSAGE" value="55. Map 인터페이스" />
+    <MESSAGE value="56. 내부 클래스 - 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="56. 내부 클래스 - 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="711" y="325" key="#Project_Structure/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449325990" />
-    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser" timestamp="1602887632129">
+    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser" timestamp="1602888577123">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602887632129" />
+    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602888577123" />
     <state x="970" y="674" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602799071690">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -471,22 +479,22 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="456" key="Github.UntrackedFilesDialog/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449350525" />
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1602887968465">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1602889423258">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602887968465" />
-    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1602887968464">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602889423258" />
+    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1602889423258">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602887968464" />
-    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1602887968464">
+    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602889423258" />
+    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1602889423258">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602887968464" />
-    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1602887968464">
+    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602889423258" />
+    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1602889423258">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602887968464" />
+    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602889423258" />
     <state x="711" y="325" key="SettingsEditor" timestamp="1602887145102">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
