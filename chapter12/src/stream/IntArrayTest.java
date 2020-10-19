@@ -12,5 +12,7 @@ public class IntArrayTest {
 
         System.out.println(sum);
         System.out.println(count);
+
+        System.out.println(Arrays.stream(arr).reduce(0, (a, b) -> a + b));
     }
 }
