@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="61. 스트림 - 2">
-      <change afterPath="$PROJECT_DIR$/chapter12/src/stream/TravelCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter12/src/stream/TravelTest.java" afterDir="false" />
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="62. 코딩해 보세요">
+      <change afterPath="$PROJECT_DIR$/chapter13/chapter13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter13/src/exception/ArrayExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="b6d7502b-f223-4e08-ae99-6a43574ed047" name="28. 매서드 오버라이딩" comment="" />
@@ -84,7 +85,20 @@
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter11\src\collection\treeset" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TravelTest">
+  <component name="RunManager" selected="Application.ArrayExceptionTest">
+    <configuration name="ArrayExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.ArrayExceptionTest" />
+      <module name="chapter13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayListStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.ArrayListStreamTest" />
       <module name="chapter12" />
@@ -124,19 +138,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.TestLambda" />
-      <module name="chapter12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TravelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.TravelTest" />
       <module name="chapter12" />
@@ -150,24 +151,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayExceptionTest" />
         <item itemvalue="Application.TravelTest" />
         <item itemvalue="Application.ReduceTest" />
         <item itemvalue="Application.IntArrayTest" />
         <item itemvalue="Application.ArrayListStreamTest" />
-        <item itemvalue="Application.TestLambda" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +215,8 @@
       <workItem from="1602887110362" duration="2752000" />
       <workItem from="1602980741750" duration="2001000" />
       <workItem from="1602983265951" duration="149000" />
-      <workItem from="1603100700680" duration="4042000" />
+      <workItem from="1603100700680" duration="4213000" />
+      <workItem from="1603192118175" duration="2509000" />
     </task>
     <task id="LOCAL-00001" summary="27. 상속에서 클래스 생성 과정과 형 변환">
       <created>1601451298450</created>
@@ -445,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603104035483</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="62. 코딩해 보세요">
+      <created>1603105666573</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1603105666573</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +475,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="35. 템플릿 메서드 활용하기" />
     <MESSAGE value="33. 추상클래스란" />
     <MESSAGE value="37. 인터페이스란" />
     <MESSAGE value="38. 인터페이스를 활용한 다형성 구현 - 1" />
@@ -489,7 +499,8 @@
     <MESSAGE value="59. 람다식 - 2" />
     <MESSAGE value="60. 스트림 - 1" />
     <MESSAGE value="61. 스트림 - 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="61. 스트림 - 2" />
+    <MESSAGE value="62. 코딩해 보세요" />
+    <option name="LAST_COMMIT_MESSAGE" value="62. 코딩해 보세요" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
@@ -516,41 +527,41 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="456" key="Github.UntrackedFilesDialog/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449350525" />
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1603105431945">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1603193504542">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603105431945" />
-    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1603105431945">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603193504542" />
+    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1603193504542">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603105431945" />
-    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1603105431944">
+    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603193504542" />
+    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1603193504541">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603105431944" />
-    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1603105431945">
+    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603193504541" />
+    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1603193504542">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603105431945" />
-    <state x="711" y="325" key="SettingsEditor" timestamp="1602887145102">
+    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603193504542" />
+    <state x="711" y="325" key="SettingsEditor" timestamp="1603192824052">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="711" y="325" key="SettingsEditor/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602887145102" />
+    <state x="711" y="325" key="SettingsEditor/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603192824052" />
     <state x="1122" y="667" key="VCS.ChangelistChooser" timestamp="1602109676703">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602109676703" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1603104038103">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1603105669682">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603104038103" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603105669682" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601595729979" />
-    <state x="886" y="507" key="new project wizard" timestamp="1602887135542">
+    <state x="886" y="507" key="new project wizard" timestamp="1603192821924">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="886" y="507" key="new project wizard/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602887135542" />
+    <state x="886" y="507" key="new project wizard/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603192821924" />
   </component>
 </project>
