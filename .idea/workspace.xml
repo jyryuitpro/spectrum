@@ -19,11 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="64. 예외와 예외 처리 - 2">
-      <change afterPath="$PROJECT_DIR$/chapter13/src/exception/IDFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter13/src/exception/ThrowsException.java" afterDir="false" />
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="65. 다양한 예외 처리">
+      <change afterPath="$PROJECT_DIR$/chapter14/chapter14.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter15/chapter15.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter13/a.txt" beforeDir="false" />
     </list>
     <list id="b6d7502b-f223-4e08-ae99-6a43574ed047" name="28. 매서드 오버라이딩" comment="" />
     <list id="8d95c7cd-1b5c-42f6-810c-d904f80f3550" name="33. 추상클래스란" comment="" />
@@ -208,6 +208,7 @@
       <workItem from="1603100700680" duration="4213000" />
       <workItem from="1603192118175" duration="3949000" />
       <workItem from="1603277618111" duration="3071000" />
+      <workItem from="1603284270504" duration="1179000" />
     </task>
     <task id="LOCAL-00001" summary="27. 상속에서 클래스 생성 과정과 형 변환">
       <created>1601451298450</created>
@@ -461,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603197444005</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="65. 다양한 예외 처리">
+      <created>1603284291571</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1603284291571</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +488,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="38. 인터페이스를 활용한 다형성 구현 - 1" />
     <MESSAGE value="39. 인터페이스를 활용한 다형성 구현 - 2" />
     <MESSAGE value="40. 인터페이스의 요소들 - 1" />
     <MESSAGE value="41. 인터페이스의 요소들 - 2" />
@@ -505,7 +512,8 @@
     <MESSAGE value="62. 코딩해 보세요" />
     <MESSAGE value="63. 예외와 예외 처리 - 1" />
     <MESSAGE value="64. 예외와 예외 처리 - 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="64. 예외와 예외 처리 - 2" />
+    <MESSAGE value="65. 다양한 예외 처리" />
+    <option name="LAST_COMMIT_MESSAGE" value="65. 다양한 예외 처리" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
@@ -548,18 +556,18 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603284249211" />
-    <state x="711" y="325" key="SettingsEditor" timestamp="1603192824052">
+    <state x="711" y="325" key="SettingsEditor" timestamp="1603285060934">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="711" y="325" key="SettingsEditor/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603192824052" />
+    <state x="711" y="325" key="SettingsEditor/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603285060934" />
     <state x="1122" y="667" key="VCS.ChangelistChooser" timestamp="1602109676703">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602109676703" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1603197447280">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1603284295619">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603197447280" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603284295619" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -568,9 +576,9 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="990" y="483" width="584" height="536" key="find.popup/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603196614020" />
-    <state x="886" y="507" key="new project wizard" timestamp="1603192821924">
+    <state x="909" y="549" key="new project wizard" timestamp="1603285057337">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="886" y="507" key="new project wizard/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603192821924" />
+    <state x="909" y="549" key="new project wizard/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603285057337" />
   </component>
 </project>
