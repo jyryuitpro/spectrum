@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="68. 바이트 단위 입출력 스트림">
-      <change afterPath="$PROJECT_DIR$/chapter14/src/stream/reader/FileReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter14/src/stream/writer/FileWriterTest.java" afterDir="false" />
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="69. 문자 단위 입출력 스트림">
+      <change afterPath="$PROJECT_DIR$/chapter14/src/stream/decorator/DataStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter14/src/stream/decorator/FileCopy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="b6d7502b-f223-4e08-ae99-6a43574ed047" name="28. 매서드 오버라이딩" comment="" />
@@ -91,13 +91,13 @@
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter11\src\collection\treeset" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileWriterTest">
-    <configuration name="FileInputTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.inputstream.FileInputTest3" />
+  <component name="RunManager" selected="Application.DataStreamTest">
+    <configuration name="DataStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.decorator.DataStreamTest" />
       <module name="chapter14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.inputstream.*" />
+          <option name="PATTERN" value="stream.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileOutputTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.outputstream.FileOutputTest1" />
+    <configuration name="FileCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.decorator.FileCopy" />
       <module name="chapter14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.outputstream.*" />
+          <option name="PATTERN" value="stream.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,24 +157,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataStreamTest" />
+        <item itemvalue="Application.FileCopy" />
         <item itemvalue="Application.FileWriterTest" />
         <item itemvalue="Application.FileReaderTest" />
         <item itemvalue="Application.FileOutputTest2" />
-        <item itemvalue="Application.FileOutputTest1" />
-        <item itemvalue="Application.FileInputTest3" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +225,8 @@
       <workItem from="1603192118175" duration="3949000" />
       <workItem from="1603277618111" duration="3071000" />
       <workItem from="1603284270504" duration="5095000" />
-      <workItem from="1603290470277" duration="2074000" />
+      <workItem from="1603290470277" duration="2184000" />
+      <workItem from="1603320272557" duration="2057000" />
     </task>
     <task id="LOCAL-00001" summary="27. 상속에서 클래스 생성 과정과 형 변환">
       <created>1601451298450</created>
@@ -505,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603291639513</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="69. 문자 단위 입출력 스트림">
+      <created>1603292620626</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1603292620626</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +534,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="43. Object 클래스 - 1" />
     <MESSAGE value="Object 클래스 - 2" />
     <MESSAGE value="45. Object 클래스 - 3" />
     <MESSAGE value="46. Class클래스" />
@@ -549,7 +558,8 @@
     <MESSAGE value="66. 자바 입출력 스트림" />
     <MESSAGE value="67. 표준 입출력" />
     <MESSAGE value="68. 바이트 단위 입출력 스트림" />
-    <option name="LAST_COMMIT_MESSAGE" value="68. 바이트 단위 입출력 스트림" />
+    <MESSAGE value="69. 문자 단위 입출력 스트림" />
+    <option name="LAST_COMMIT_MESSAGE" value="69. 문자 단위 입출력 스트림" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
@@ -576,22 +586,22 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="456" key="Github.UntrackedFilesDialog/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449350525" />
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1603292517826">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1603322337916">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603292517826" />
-    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1603292517825">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603322337916" />
+    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1603322337915">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603292517825" />
-    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1603292517825">
+    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603322337915" />
+    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1603322337915">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603292517825" />
-    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1603292517825">
+    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603322337915" />
+    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1603322337916">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603292517825" />
+    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603322337916" />
     <state x="711" y="325" key="SettingsEditor" timestamp="1603285060934">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
