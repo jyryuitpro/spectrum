@@ -19,13 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="66. 자바 입출력 스트림">
-      <change afterPath="$PROJECT_DIR$/chapter05/chapter05.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter06/chapter06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter14/src/stream/inputstream/ConsoleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter14/src/stream/inputstream/SystemInTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter14/src/stream/inputstream/SystemInTest2.java" afterDir="false" />
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="67. 표준 입출력">
+      <change afterPath="$PROJECT_DIR$/chapter14/src/stream/inputstream/FileInputTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter14/src/stream/inputstream/FileInputTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter14/src/stream/inputstream/FileInputTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter14/src/stream/outputstream/FileOutputTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter14/src/stream/outputstream/FileOutputTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chaper09/chapter09.iml" beforeDir="false" />
     </list>
     <list id="b6d7502b-f223-4e08-ae99-6a43574ed047" name="28. 매서드 오버라이딩" comment="" />
     <list id="8d95c7cd-1b5c-42f6-810c-d904f80f3550" name="33. 추상클래스란" comment="" />
@@ -66,7 +68,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="14" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter12/src/innerclass" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -74,27 +76,29 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter12\src\innerclass" />
-      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter11\src\collection\treemap" />
-      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter11\src\collection\treeset" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="stream.inputstream" />
-      <recent name="collection.hashmap" />
-      <recent name="set" />
-      <recent name="polymorphism" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter13" />
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter13\src" />
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter13\src\exception" />
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter07\src\inheritance" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stream.outputstream" />
+      <recent name="stream.inputstream" />
+      <recent name="collection.hashmap" />
+      <recent name="set" />
+      <recent name="polymorphism" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jyryu\IdeaProjects\spectrum" />
+      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter12\src\innerclass" />
+      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter11\src\collection\treemap" />
+      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter11\src\collection\treeset" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ConsoleTest">
-    <configuration name="ConsoleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.inputstream.ConsoleTest" />
+  <component name="RunManager" selected="Application.FileOutputTest2">
+    <configuration name="FileInputTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.inputstream.FileInputTest1" />
       <module name="chapter14" />
       <extension name="coverage">
         <pattern>
@@ -106,21 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IDFormatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.IDFormatTest" />
-      <module name="chapter13" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SystemInTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.inputstream.SystemInTest" />
+    <configuration name="FileInputTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.inputstream.FileInputTest2" />
       <module name="chapter14" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemInTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.inputstream.SystemInTest2" />
+    <configuration name="FileInputTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.inputstream.FileInputTest3" />
       <module name="chapter14" />
       <extension name="coverage">
         <pattern>
@@ -145,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowsException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.ThrowsException" />
-      <module name="chapter13" />
+    <configuration name="FileOutputTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.outputstream.FileOutputTest1" />
+      <module name="chapter14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exception.*" />
+          <option name="PATTERN" value="stream.outputstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,26 +149,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="FileOutputTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.outputstream.FileOutputTest2" />
+      <module name="chapter14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.outputstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConsoleTest" />
-        <item itemvalue="Application.SystemInTest2" />
-        <item itemvalue="Application.SystemInTest" />
-        <item itemvalue="Application.IDFormatTest" />
-        <item itemvalue="Application.ThrowsException" />
+        <item itemvalue="Application.FileOutputTest2" />
+        <item itemvalue="Application.FileOutputTest1" />
+        <item itemvalue="Application.FileInputTest3" />
+        <item itemvalue="Application.FileInputTest2" />
+        <item itemvalue="Application.FileInputTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +227,8 @@
       <workItem from="1603100700680" duration="4213000" />
       <workItem from="1603192118175" duration="3949000" />
       <workItem from="1603277618111" duration="3071000" />
-      <workItem from="1603284270504" duration="2922000" />
+      <workItem from="1603284270504" duration="5095000" />
+      <workItem from="1603290470277" duration="1010000" />
     </task>
     <task id="LOCAL-00001" summary="27. 상속에서 클래스 생성 과정과 형 변환">
       <created>1601451298450</created>
@@ -493,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603285472638</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="67. 표준 입출력">
+      <created>1603287908509</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1603287908509</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +522,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="40. 인터페이스의 요소들 - 1" />
     <MESSAGE value="41. 인터페이스의 요소들 - 2" />
     <MESSAGE value="43. Object 클래스 - 1" />
     <MESSAGE value="Object 클래스 - 2" />
@@ -537,7 +546,8 @@
     <MESSAGE value="64. 예외와 예외 처리 - 2" />
     <MESSAGE value="65. 다양한 예외 처리" />
     <MESSAGE value="66. 자바 입출력 스트림" />
-    <option name="LAST_COMMIT_MESSAGE" value="66. 자바 입출력 스트림" />
+    <MESSAGE value="67. 표준 입출력" />
+    <option name="LAST_COMMIT_MESSAGE" value="67. 표준 입출력" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
@@ -564,22 +574,22 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="456" key="Github.UntrackedFilesDialog/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449350525" />
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1603287521629">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1603291064773">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603287521629" />
-    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1603287521629">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603291064773" />
+    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1603291064773">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603287521629" />
-    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1603287521629">
+    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603291064773" />
+    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1603291064773">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603287521629" />
-    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1603287521629">
+    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603291064773" />
+    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1603291064773">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603287521629" />
+    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603291064773" />
     <state x="711" y="325" key="SettingsEditor" timestamp="1603285060934">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -588,10 +598,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1602109676703" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1603285476842">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1603287913683">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603285476842" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603287913683" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -600,6 +610,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="990" y="483" width="584" height="536" key="find.popup/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603196614020" />
+    <state width="756" height="563" key="javadoc.popup.new" timestamp="1603288916018">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="756" height="563" key="javadoc.popup.new/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603288916018" />
     <state x="909" y="549" key="new project wizard" timestamp="1603285057337">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
