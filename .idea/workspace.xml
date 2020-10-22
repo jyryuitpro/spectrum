@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="78. multi-thread 프로그래밍 - 2">
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="01. 클래스와 객체 - 01. 객체지향 프로그래밍과 클래스">
+      <change afterPath="$PROJECT_DIR$/chapter05/src/classpart/StudentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter05/src/classpart/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter05/src/classpart/Student.java" afterDir="false" />
     </list>
     <list id="b6d7502b-f223-4e08-ae99-6a43574ed047" name="28. 매서드 오버라이딩" comment="" />
     <list id="8d95c7cd-1b5c-42f6-810c-d904f80f3550" name="33. 추상클래스란" comment="" />
@@ -90,22 +92,9 @@
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter07\src\inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LibraryMain">
+  <component name="RunManager" selected="Application.StudentTest">
     <configuration name="InterruptTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.InterruptTest" />
-      <module name="chapter15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JoinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.JoinTest" />
       <module name="chapter15" />
       <extension name="coverage">
         <pattern>
@@ -123,6 +112,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classpart.StudentTest" />
+      <module name="chapter05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classpart.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,13 +158,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentTest" />
         <item itemvalue="Application.LibraryMain" />
         <item itemvalue="Application.SyncTest" />
         <item itemvalue="Application.TerminateThread" />
         <item itemvalue="Application.InterruptTest" />
-        <item itemvalue="Application.JoinTest" />
       </list>
     </recent_temporary>
   </component>
@@ -214,14 +227,8 @@
       <workItem from="1603284270504" duration="5095000" />
       <workItem from="1603290470277" duration="2184000" />
       <workItem from="1603320272557" duration="10816000" />
-      <workItem from="1603371169725" duration="821000" />
-    </task>
-    <task id="LOCAL-00003" summary="28. 매서드 오버라이딩">
-      <created>1601521180124</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1601521180124</updated>
+      <workItem from="1603371169725" duration="1077000" />
+      <workItem from="1603403764897" duration="829000" />
     </task>
     <task id="LOCAL-00004" summary="29. 다형성 - 1">
       <created>1601596359970</created>
@@ -559,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603331568985</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="01. 클래스와 객체 - 01. 객체지향 프로그래밍과 클래스">
+      <created>1603372193179</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1603372193180</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +592,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="54. Set 인터페이스 - 2" />
     <MESSAGE value="55. Map 인터페이스" />
     <MESSAGE value="56. 내부 클래스 - 1" />
     <MESSAGE value="57. 내부 클래스 - 2" />
@@ -603,7 +616,8 @@
     <MESSAGE value="76. Thread의 여러가지 메서드 활용 - 2" />
     <MESSAGE value="77. multi-thread 프로그래밍 - 1" />
     <MESSAGE value="78. multi-thread 프로그래밍 - 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="78. multi-thread 프로그래밍 - 2" />
+    <MESSAGE value="01. 클래스와 객체 - 01. 객체지향 프로그래밍과 클래스" />
+    <option name="LAST_COMMIT_MESSAGE" value="01. 클래스와 객체 - 01. 객체지향 프로그래밍과 클래스" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
@@ -658,10 +672,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603323276294" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1603331672928">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1603372197895">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603331672928" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603372197895" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
