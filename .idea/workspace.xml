@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="75. Thread의 여러가지 메서드 활용 - 1">
-      <change afterPath="$PROJECT_DIR$/chapter15/src/thread/InterruptTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter15/src/thread/TerminateThread.java" afterDir="false" />
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="76. Thread의 여러가지 메서드 활용 - 2">
+      <change afterPath="$PROJECT_DIR$/chapter15/src/thread/SyncTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="b6d7502b-f223-4e08-ae99-6a43574ed047" name="28. 매서드 오버라이딩" comment="" />
@@ -92,20 +91,7 @@
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter11\src\collection\treeset" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TerminateThread">
-    <configuration name="CoffeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.coffe.CoffeeTest" />
-      <module name="chapter14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.coffe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SyncTest">
     <configuration name="InterruptTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.InterruptTest" />
       <module name="chapter15" />
@@ -121,6 +107,19 @@
     </configuration>
     <configuration name="JoinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.JoinTest" />
+      <module name="chapter15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SyncTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.SyncTest" />
       <module name="chapter15" />
       <extension name="coverage">
         <pattern>
@@ -173,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SyncTest" />
         <item itemvalue="Application.TerminateThread" />
         <item itemvalue="Application.InterruptTest" />
         <item itemvalue="Application.JoinTest" />
         <item itemvalue="Application.ThreadTest" />
-        <item itemvalue="Application.CoffeeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +227,7 @@
       <workItem from="1603277618111" duration="3071000" />
       <workItem from="1603284270504" duration="5095000" />
       <workItem from="1603290470277" duration="2184000" />
-      <workItem from="1603320272557" duration="7452000" />
+      <workItem from="1603320272557" duration="8897000" />
     </task>
     <task id="LOCAL-00001" summary="27. 상속에서 클래스 생성 과정과 형 변환">
       <created>1601451298450</created>
@@ -566,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603326923785</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="76. Thread의 여러가지 메서드 활용 - 2">
+      <created>1603327958335</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1603327958335</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +591,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="51. List 인터페이스" />
     <MESSAGE value="52. Stack과 Queue 구현하기" />
     <MESSAGE value="53. Set 인터페이스 - 1" />
     <MESSAGE value="54. Set 인터페이스 - 2" />
@@ -610,7 +615,8 @@
     <MESSAGE value="73. 그 외 입출력 클래스와 데코레이터 패턴 - 2" />
     <MESSAGE value="74. Thread 구현하기" />
     <MESSAGE value="75. Thread의 여러가지 메서드 활용 - 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="75. Thread의 여러가지 메서드 활용 - 1" />
+    <MESSAGE value="76. Thread의 여러가지 메서드 활용 - 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="76. Thread의 여러가지 메서드 활용 - 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
@@ -621,10 +627,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="552" key="#com.intellij.fileTypes.FileTypeChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603323034558" />
-    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser" timestamp="1603327592986">
+    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser" timestamp="1603328440170">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603327592986" />
+    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603328440170" />
     <state x="970" y="674" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602799071690">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -641,22 +647,22 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="456" key="Github.UntrackedFilesDialog/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449350525" />
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1603327140910">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1603329025889">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603327140910" />
-    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1603327140910">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603329025889" />
+    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1603329025889">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603327140910" />
-    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1603327140909">
+    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603329025889" />
+    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1603329025889">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603327140909" />
-    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1603327140910">
+    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603329025889" />
+    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1603329025889">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603327140910" />
+    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603329025889" />
     <state x="711" y="325" key="SettingsEditor" timestamp="1603285060934">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -665,10 +671,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603323276294" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1603326925395">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1603327965793">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603326925395" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603327965793" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
