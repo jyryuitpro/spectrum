@@ -18,4 +18,8 @@ public class Student {
     public void showStudentInfo() {
         System.out.println(studentName + ", " + address);
     }
+
+    public String getStudentName() {
+        return studentName;
+    }
 }
