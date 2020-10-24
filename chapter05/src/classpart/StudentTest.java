@@ -7,5 +7,13 @@ public class StudentTest {
         studentLee.studentName = "이순신";
         studentLee.address = "서울";
         studentLee.showStudentInfo();
+
+        Student studentKim = new Student();
+        studentKim.studentName = "김유신";
+        studentKim.address = "경주";
+        studentKim.showStudentInfo();
+
+        System.out.println(studentLee); // classpart.Student@3d494fbf
+        System.out.println(studentKim); // classpart.Student@1ddc4ec2
     }
 }

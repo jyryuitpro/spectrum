@@ -16,6 +16,7 @@ public class Student {
 
 //    학생의 정보를 보여줍니다.
     public void showStudentInfo() {
+        int i = 0;
         System.out.println(studentName + ", " + address);
     }
 
