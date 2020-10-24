@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="04. 클래스와 객체 - 04. 함수와 메서드 - 2">
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="05. 클래스와 객체 - 05. 인스턴스, 힙 메모리">
+      <change afterPath="$PROJECT_DIR$/practice/practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/chapter05/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/src/chapter05/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter05/src/classpart/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter05/src/classpart/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter05/src/classpart/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter05/src/classpart/StudentTest.java" afterDir="false" />
     </list>
     <list id="b6d7502b-f223-4e08-ae99-6a43574ed047" name="28. 매서드 오버라이딩" comment="" />
     <list id="8d95c7cd-1b5c-42f6-810c-d904f80f3550" name="33. 추상클래스란" comment="" />
@@ -92,7 +94,7 @@
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter07\src\inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentTest">
+  <component name="RunManager" selected="Application.PersonTest">
     <configuration name="FunctionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classpart.FunctionTest" />
       <module name="chapter05" />
@@ -112,6 +114,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter05.PersonTest" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,39 +160,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TerminateThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.TerminateThread" />
-      <module name="chapter15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonTest" />
         <item itemvalue="Application.StudentTest" />
         <item itemvalue="Application.FunctionTest" />
         <item itemvalue="Application.LibraryMain" />
         <item itemvalue="Application.SyncTest" />
-        <item itemvalue="Application.TerminateThread" />
       </list>
     </recent_temporary>
   </component>
@@ -231,14 +231,8 @@
       <workItem from="1603320272557" duration="10816000" />
       <workItem from="1603371169725" duration="1077000" />
       <workItem from="1603403764897" duration="1750000" />
-      <workItem from="1603495701136" duration="2094000" />
-    </task>
-    <task id="LOCAL-00007" summary="33. 추상클래스란">
-      <created>1601903126916</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1601903126917</updated>
+      <workItem from="1603495701136" duration="2363000" />
+      <workItem from="1603578882279" duration="821000" />
     </task>
     <task id="LOCAL-00008" summary="34. 추상클래스 응용 - 템플릿 메서드">
       <created>1601987572421</created>
@@ -576,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603496439708</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="05. 클래스와 객체 - 05. 인스턴스, 힙 메모리">
+      <created>1603497873613</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1603497873613</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +596,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="58. 람다식 - 1" />
     <MESSAGE value="59. 람다식 - 2" />
     <MESSAGE value="60. 스트림 - 1" />
     <MESSAGE value="61. 스트림 - 2" />
@@ -620,7 +620,8 @@
     <MESSAGE value="02. 클래스와 객체 - 02. 객체지향 프로그래밍과 클래스 -2" />
     <MESSAGE value="03. 클래스와 객체 - 03. 함수와 메서드 - 1" />
     <MESSAGE value="04. 클래스와 객체 - 04. 함수와 메서드 - 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="04. 클래스와 객체 - 04. 함수와 메서드 - 2" />
+    <MESSAGE value="05. 클래스와 객체 - 05. 인스턴스, 힙 메모리" />
+    <option name="LAST_COMMIT_MESSAGE" value="05. 클래스와 객체 - 05. 인스턴스, 힙 메모리" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
@@ -651,34 +652,34 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="456" key="Github.UntrackedFilesDialog/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449350525" />
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1603497503625">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1603498081312">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603497503625" />
-    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1603497503624">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603498081312" />
+    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1603498081312">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603497503624" />
-    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1603497503624">
+    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603498081312" />
+    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1603498081312">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603497503624" />
-    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1603497503624">
+    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603498081312" />
+    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1603498081312">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603497503624" />
-    <state x="711" y="325" key="SettingsEditor" timestamp="1603285060934">
+    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603498081312" />
+    <state x="711" y="325" key="SettingsEditor" timestamp="1603579298205">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="711" y="325" key="SettingsEditor/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603285060934" />
+    <state x="711" y="325" key="SettingsEditor/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603579298205" />
     <state x="1122" y="667" key="VCS.ChangelistChooser" timestamp="1603323276294">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603323276294" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1603496444157">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1603497888620">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603496444157" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603497888620" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -691,9 +692,9 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state width="756" height="563" key="javadoc.popup.new/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603288916018" />
-    <state x="909" y="549" key="new project wizard" timestamp="1603285057337">
+    <state x="909" y="549" key="new project wizard" timestamp="1603579295757">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="909" y="549" key="new project wizard/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603285057337" />
+    <state x="909" y="549" key="new project wizard/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603579295757" />
   </component>
 </project>

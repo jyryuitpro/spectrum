@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/chapter13/chapter13.iml" filepath="$PROJECT_DIR$/chapter13/chapter13.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter14/chapter14.iml" filepath="$PROJECT_DIR$/chapter14/chapter14.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter15/chapter15.iml" filepath="$PROJECT_DIR$/chapter15/chapter15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/practice.iml" filepath="$PROJECT_DIR$/practice/practice.iml" />
     </modules>
   </component>
 </project>
