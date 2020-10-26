@@ -19,11 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="07. 클래스와 객체 - 07. 생성자, 생성자 오버로딩">
-      <change afterPath="$PROJECT_DIR$/chapter05/src/reference/Student.java" afterDir="false" />
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="08. 클래스와 객체 - 08. 참조 자료형">
+      <change afterPath="$PROJECT_DIR$/chapter05/src/hiding/MyDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/src/hiding/MyDateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="9a34e99c-d08c-4190-8153-e8bb49174dd1" name="06. 클래스와 객체 - 06. 코딩해 보세요 (1)" comment="" />
+    <list id="06fef8c0-a586-425f-bcd5-d9e8a811f77a" name="08. 클래스와 객체 - 08. 참조 자료형" comment="" />
     <list id="b6d7502b-f223-4e08-ae99-6a43574ed047" name="28. 매서드 오버라이딩" comment="" />
     <list id="8d95c7cd-1b5c-42f6-810c-d904f80f3550" name="33. 추상클래스란" comment="" />
     <list id="aed298ca-c731-4475-9c02-dab52ecc094a" name="71. 직렬화" comment="" />
@@ -92,7 +94,7 @@
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter07\src\inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentTest (1)">
+  <component name="RunManager" selected="Application.MyDateTest">
     <configuration name="FunctionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classpart.FunctionTest" />
       <module name="chapter05" />
@@ -106,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.LibraryMain" />
-      <module name="chapter15" />
+    <configuration name="MyDateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hiding.MyDateTest" />
+      <module name="chapter05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="hiding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,13 +160,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyDateTest" />
         <item itemvalue="Application.StudentTest (1)" />
         <item itemvalue="Application.StudentTest" />
         <item itemvalue="Application.PersonTest" />
         <item itemvalue="Application.FunctionTest" />
-        <item itemvalue="Application.LibraryMain" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +189,7 @@
       <changelist id="8d95c7cd-1b5c-42f6-810c-d904f80f3550" name="33. 추상클래스란" comment="" />
       <changelist id="aed298ca-c731-4475-9c02-dab52ecc094a" name="71. 직렬화" comment="" />
       <changelist id="9a34e99c-d08c-4190-8153-e8bb49174dd1" name="06. 클래스와 객체 - 06. 코딩해 보세요 (1)" comment="" />
+      <changelist id="06fef8c0-a586-425f-bcd5-d9e8a811f77a" name="08. 클래스와 객체 - 08. 참조 자료형" comment="" />
       <created>1601449322584</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -221,20 +235,8 @@
       <workItem from="1603403764897" duration="1750000" />
       <workItem from="1603495701136" duration="2363000" />
       <workItem from="1603578882279" duration="3164000" />
-    </task>
-    <task id="LOCAL-00012" summary="38. 인터페이스를 활용한 다형성 구현 - 1">
-      <created>1602163620288</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1602163620288</updated>
-    </task>
-    <task id="LOCAL-00013" summary="39. 인터페이스를 활용한 다형성 구현 - 2">
-      <created>1602197515540</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1602197515540</updated>
+      <workItem from="1603582092537" duration="126000" />
+      <workItem from="1603702013463" duration="648000" />
     </task>
     <task id="LOCAL-00014" summary="40. 인터페이스의 요소들 - 1">
       <created>1602281387331</created>
@@ -565,7 +567,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603580852554</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="08. 클래스와 객체 - 08. 참조 자료형">
+      <created>1603582116011</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1603582116012</updated>
+    </task>
+    <task id="LOCAL-00062" summary="08. 클래스와 객체 - 08. 참조 자료형">
+      <created>1603582174385</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1603582174385</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,7 +600,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="61. 스트림 - 2" />
     <MESSAGE value="62. 코딩해 보세요" />
     <MESSAGE value="63. 예외와 예외 처리 - 1" />
     <MESSAGE value="64. 예외와 예외 처리 - 2" />
@@ -609,7 +624,8 @@
     <MESSAGE value="05. 클래스와 객체 - 05. 인스턴스, 힙 메모리" />
     <MESSAGE value="06. 클래스와 객체 - 06. 코딩해 보세요 (1)" />
     <MESSAGE value="07. 클래스와 객체 - 07. 생성자, 생성자 오버로딩" />
-    <option name="LAST_COMMIT_MESSAGE" value="07. 클래스와 객체 - 07. 생성자, 생성자 오버로딩" />
+    <MESSAGE value="08. 클래스와 객체 - 08. 참조 자료형" />
+    <option name="LAST_COMMIT_MESSAGE" value="08. 클래스와 객체 - 08. 참조 자료형" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
@@ -660,14 +676,14 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="711" y="325" key="SettingsEditor/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603579298205" />
-    <state x="1122" y="667" key="VCS.ChangelistChooser" timestamp="1603579819732">
+    <state x="1122" y="667" key="VCS.ChangelistChooser" timestamp="1603582131606">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603579819732" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1603580856111">
+    <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603582131606" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1603582176758">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603580856111" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603582176758" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
