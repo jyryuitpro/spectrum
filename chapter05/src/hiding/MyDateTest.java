@@ -7,6 +7,9 @@ public class MyDateTest {
 //        myDate.day = 10;
 //        myDate.month = 7;
 //        myDate.year = 2019;
+        myDate.setYear(2019);
+        myDate.setMonth(7);
+        myDate.setDay(10);
 
         myDate.showDate();
     }

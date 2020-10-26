@@ -8,6 +8,9 @@ public class MyDate {
 
     private int year;
 
+    // false
+    private boolean isValid;
+
     public int getDay() {
         return day;
     }
@@ -21,7 +24,12 @@ public class MyDate {
     }
 
     public void setMonth(int month) {
-        this.month = month;
+        if (month < 1 || month > 12) {
+            isValid = false;
+        } else {
+            isValid = true;
+            this.month = month;
+        }
     }
 
     public int getYear() {
@@ -33,6 +41,10 @@ public class MyDate {
     }
 
     public void showDate() {
-        System.out.println(year + "년 " + month + "월 " + day + "일 입니다.private ");
+        if (isValid) {
+            System.out.println(year + "년 " + month + "월 " + day + "일 입니다.");
+        } else {
+            System.out.println("유효하지 않은 날짜 입니다.");
+        }
     }
 }
