@@ -12,5 +12,9 @@ public class MyDateTest {
         myDate.setDay(10);
 
         myDate.showDate();
+
+        MyDate myDate2 = new MyDate();
+        myDate2.setDay(20);
+
     }
 }
