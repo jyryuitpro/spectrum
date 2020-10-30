@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="11. 클래스와 객체 - 11. this에 대하여">
-      <change afterPath="$PROJECT_DIR$/chapter05/src/cooperation/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/src/cooperation/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/src/cooperation/Subway.java" afterDir="false" />
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="12. 클래스와 객체 - 12. 객체간 협력">
+      <change afterPath="$PROJECT_DIR$/chapter05/src/staticconcept/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/src/staticconcept/StudentIDTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="9a34e99c-d08c-4190-8153-e8bb49174dd1" name="06. 클래스와 객체 - 06. 코딩해 보세요 (1)" comment="" />
@@ -75,27 +74,27 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jyryu\IdeaProjects\spectrum" />
-      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter12\src\innerclass" />
-      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter11\src\collection\treemap" />
-      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter11\src\collection\treeset" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="stream.outputstream" />
-      <recent name="stream.inputstream" />
-      <recent name="collection.hashmap" />
-      <recent name="set" />
-      <recent name="polymorphism" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter13" />
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter13\src" />
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter13\src\exception" />
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter07\src\inheritance" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="staticconcept" />
+      <recent name="stream.outputstream" />
+      <recent name="stream.inputstream" />
+      <recent name="collection.hashmap" />
+      <recent name="set" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jyryu\IdeaProjects\spectrum" />
+      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter12\src\innerclass" />
+      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter11\src\collection\treemap" />
+      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter11\src\collection\treeset" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TakeTransTest">
+  <component name="RunManager" selected="Application.StudentIDTest">
     <configuration name="MyDateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hiding.MyDateTest" />
       <module name="chapter05" />
@@ -122,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reference.StudentTest" />
+    <configuration name="StudentIDTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="staticconcept.StudentIDTest" />
       <module name="chapter05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reference.*" />
+          <option name="PATTERN" value="staticconcept.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classpart.StudentTest" />
+    <configuration name="StudentTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reference.StudentTest" />
       <module name="chapter05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classpart.*" />
+          <option name="PATTERN" value="reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,13 +160,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentIDTest" />
         <item itemvalue="Application.TakeTransTest" />
         <item itemvalue="Application.PersonTest (1)" />
         <item itemvalue="Application.MyDateTest" />
         <item itemvalue="Application.StudentTest (1)" />
-        <item itemvalue="Application.StudentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -228,13 +238,9 @@
       <workItem from="1603582092537" duration="126000" />
       <workItem from="1603702013463" duration="1838000" />
       <workItem from="1603924109414" duration="2560000" />
-    </task>
-    <task id="LOCAL-00017" summary="Object 클래스 - 2">
-      <created>1602369147593</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1602369147593</updated>
+      <workItem from="1603926710396" duration="47000" />
+      <workItem from="1603960309893" duration="26000" />
+      <workItem from="1604014299135" duration="2266000" />
     </task>
     <task id="LOCAL-00018" summary="45. Object 클래스 - 3">
       <created>1602370246707</created>
@@ -572,7 +578,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603925455549</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="12. 클래스와 객체 - 12. 객체간 협력">
+      <created>1603926727389</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1603926727389</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +604,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="65. 다양한 예외 처리" />
     <MESSAGE value="66. 자바 입출력 스트림" />
     <MESSAGE value="67. 표준 입출력" />
     <MESSAGE value="68. 바이트 단위 입출력 스트림" />
@@ -616,7 +628,8 @@
     <MESSAGE value="09. 클래스와 객체 - 09. 정보 은닉 - 1" />
     <MESSAGE value="10. 클래스와 객체 - 10. 정보 은닉 - 2" />
     <MESSAGE value="11. 클래스와 객체 - 11. this에 대하여" />
-    <option name="LAST_COMMIT_MESSAGE" value="11. 클래스와 객체 - 11. this에 대하여" />
+    <MESSAGE value="12. 클래스와 객체 - 12. 객체간 협력" />
+    <option name="LAST_COMMIT_MESSAGE" value="12. 클래스와 객체 - 12. 객체간 협력" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
@@ -627,10 +640,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="552" key="#com.intellij.fileTypes.FileTypeChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603323034558" />
-    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser" timestamp="1603925939778">
+    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser" timestamp="1604015868497">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603925939778" />
+    <state x="1078" y="456" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604015868497" />
     <state x="970" y="674" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602799071690">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -651,22 +664,22 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="456" key="Github.UntrackedFilesDialog/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449350525" />
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1603926688544">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1604015795089">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603926688544" />
-    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1603926688544">
+    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604015795089" />
+    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1604015795089">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603926688544" />
-    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1603926688544">
+    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604015795089" />
+    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1604015795089">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603926688544" />
-    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1603926688544">
+    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604015795089" />
+    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1604015795089">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603926688544" />
+    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604015795089" />
     <state x="711" y="325" key="SettingsEditor" timestamp="1603579298205">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -675,10 +688,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603582131606" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1603925461688">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1603926731027">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603925461688" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603926731027" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
