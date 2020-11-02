@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="17. 배열이란 - 1 &amp; 18. 배열이란 - 2">
-      <change afterPath="$PROJECT_DIR$/chapter06/src/array/ArrayCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter06/src/array/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter06/src/array/BookArrayTest.java" afterDir="false" />
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="19. 객체 배열 - 1">
+      <change afterPath="$PROJECT_DIR$/chapter06/src/array/ObjectCopy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="9a34e99c-d08c-4190-8153-e8bb49174dd1" name="06. 클래스와 객체 - 06. 코딩해 보세요 (1)" comment="" />
@@ -75,42 +73,29 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter13" />
-      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter13\src" />
-      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter13\src\exception" />
-      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter07\src\inheritance" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="staticconcept" />
-      <recent name="stream.outputstream" />
-      <recent name="stream.inputstream" />
-      <recent name="collection.hashmap" />
-      <recent name="set" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum" />
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter12\src\innerclass" />
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter11\src\collection\treemap" />
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter11\src\collection\treeset" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="array" />
+      <recent name="staticconcept" />
+      <recent name="stream.outputstream" />
+      <recent name="stream.inputstream" />
+      <recent name="collection.hashmap" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter13" />
+      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter13\src" />
+      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter13\src\exception" />
+      <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter07\src\inheritance" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayCopy">
+  <component name="RunManager" selected="Application.ObjectCopy2">
     <configuration name="ArrayCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.ArrayCopy" />
-      <module name="chapter06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ArrayTest" />
       <module name="chapter06" />
       <extension name="coverage">
         <pattern>
@@ -148,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompanyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="staticconcept.CompanyTest" />
-      <module name="chapter05" />
+    <configuration name="ObjectCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ObjectCopy" />
+      <module name="chapter06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="staticconcept.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,24 +146,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="ObjectCopy2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ObjectCopy2" />
+      <module name="chapter06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectCopy2" />
+        <item itemvalue="Application.ObjectCopy" />
         <item itemvalue="Application.ArrayCopy" />
         <item itemvalue="Application.BookArrayTest" />
         <item itemvalue="Application.CharArrayTest" />
-        <item itemvalue="Application.ArrayTest" />
-        <item itemvalue="Application.CompanyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -243,14 +230,7 @@
       <workItem from="1603960309893" duration="26000" />
       <workItem from="1604014299135" duration="3532000" />
       <workItem from="1604186448076" duration="2664000" />
-      <workItem from="1604306565644" duration="2195000" />
-    </task>
-    <task id="LOCAL-00021" summary="49. 제네릭 프로그래밍">
-      <created>1602594597031</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1602594597031</updated>
+      <workItem from="1604306565644" duration="4093000" />
     </task>
     <task id="LOCAL-00022" summary="50. 컬렉션 프레임워크란">
       <created>1602676455754</created>
@@ -588,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604188959479</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="19. 객체 배열 - 1">
+      <created>1604309311528</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1604309311528</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,7 +594,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="69. 문자 단위 입출력 스트림" />
     <MESSAGE value="70. 보조 스트림" />
     <MESSAGE value="71. 직렬화" />
     <MESSAGE value="72. 그 외 입출력 클래스와 데코레이터 패턴 - 1" />
@@ -632,7 +618,8 @@
     <MESSAGE value="14. 클래스와 객체 - 14. static 변수, 메서드" />
     <MESSAGE value="15. 클래스와 객체 - 15. static 응용 - singleton pattern" />
     <MESSAGE value="17. 배열이란 - 1 &amp; 18. 배열이란 - 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="17. 배열이란 - 1 &amp; 18. 배열이란 - 2" />
+    <MESSAGE value="19. 객체 배열 - 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="19. 객체 배열 - 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
@@ -667,22 +654,22 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="456" key="Github.UntrackedFilesDialog/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449350525" />
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom" timestamp="1604308162375">
+    <state width="2380" height="375" key="GridCell.Tab.0.bottom" timestamp="1604311202372">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604308162375" />
-    <state width="2380" height="290" key="GridCell.Tab.0.center" timestamp="1604308162375">
+    <state width="2380" height="375" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604311202372" />
+    <state width="2380" height="375" key="GridCell.Tab.0.center" timestamp="1604311202372">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604308162375" />
-    <state width="2380" height="290" key="GridCell.Tab.0.left" timestamp="1604308162375">
+    <state width="2380" height="375" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604311202372" />
+    <state width="2380" height="375" key="GridCell.Tab.0.left" timestamp="1604311202372">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604308162375" />
-    <state width="2380" height="290" key="GridCell.Tab.0.right" timestamp="1604308162375">
+    <state width="2380" height="375" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604311202372" />
+    <state width="2380" height="375" key="GridCell.Tab.0.right" timestamp="1604311202372">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="290" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604308162375" />
+    <state width="2380" height="375" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604311202372" />
     <state x="711" y="325" key="SettingsEditor" timestamp="1603579298205">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -691,10 +678,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603582131606" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1604188975246">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1604309316351">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604188975246" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604309316351" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
