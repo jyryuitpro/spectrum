@@ -19,11 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="26. 상속이란 - 2">
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="27. 상속에서 클래스 생성 과정과 형 변환">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter07/src/inheritance/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/src/inheritance/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07/src/inheritance/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/src/inheritance/CustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/src/inheritance/OverrideingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/src/inheritance/OverridingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter07/src/inheritance/VIPCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter07/src/inheritance/VIPCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chapter07/inheritance/CustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter07/inheritance/CustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/chapter07/inheritance/VIPCustomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chapter07/inheritance/VIPCustomer.class" afterDir="false" />
     </list>
     <list id="9a34e99c-d08c-4190-8153-e8bb49174dd1" name="06. 클래스와 객체 - 06. 코딩해 보세요 (1)" comment="" />
     <list id="06fef8c0-a586-425f-bcd5-d9e8a811f77a" name="08. 클래스와 객체 - 08. 참조 자료형" comment="" />
@@ -95,7 +97,7 @@
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter07\src\inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VariableDecl">
+  <component name="RunManager" selected="Application.OverridingTest">
     <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.ArrayListTest" />
       <module name="chapter06" />
@@ -109,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.StudentTest" />
-      <module name="chapter06" />
+    <configuration name="OverridingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.OverridingTest" />
+      <module name="chapter07" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TowDimension" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.TowDimension" />
+    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.StudentTest" />
       <module name="chapter06" />
       <extension name="coverage">
         <pattern>
@@ -161,26 +163,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OverridingTest" />
         <item itemvalue="Application.VariableDecl" />
         <item itemvalue="Application.UserVariable" />
         <item itemvalue="Application.StudentTest" />
         <item itemvalue="Application.ArrayListTest" />
-        <item itemvalue="Application.TowDimension" />
       </list>
     </recent_temporary>
   </component>
@@ -251,14 +251,8 @@
       <workItem from="1604406062031" duration="107000" />
       <workItem from="1604407835652" duration="11000" />
       <workItem from="1604493536959" duration="7899000" />
-      <workItem from="1604534672921" duration="2201000" />
-    </task>
-    <task id="LOCAL-00028" summary="56. 내부 클래스 - 1">
-      <created>1602888381724</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1602888381724</updated>
+      <workItem from="1604534672921" duration="3061000" />
+      <workItem from="1604704562204" duration="1097000" />
     </task>
     <task id="LOCAL-00029" summary="57. 내부 클래스 - 2">
       <created>1602889762119</created>
@@ -596,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604535763489</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="27. 상속에서 클래스 생성 과정과 형 변환">
+      <created>1604537150440</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1604537150440</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,7 +616,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="77. multi-thread 프로그래밍 - 1" />
     <MESSAGE value="78. multi-thread 프로그래밍 - 2" />
     <MESSAGE value="01. 클래스와 객체 - 01. 객체지향 프로그래밍과 클래스" />
     <MESSAGE value="02. 클래스와 객체 - 02. 객체지향 프로그래밍과 클래스 -2" />
@@ -640,7 +640,8 @@
     <MESSAGE value="25. 상속이란 - 1" />
     <MESSAGE value="Chapter 02-1. 변수의 이해와 활용" />
     <MESSAGE value="26. 상속이란 - 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="26. 상속이란 - 2" />
+    <MESSAGE value="27. 상속에서 클래스 생성 과정과 형 변환" />
+    <option name="LAST_COMMIT_MESSAGE" value="27. 상속에서 클래스 생성 과정과 형 변환" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
@@ -675,22 +676,22 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="456" key="Github.UntrackedFilesDialog/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449350525" />
-    <state width="2380" height="375" key="GridCell.Tab.0.bottom" timestamp="1604504393079">
+    <state width="2380" height="375" key="GridCell.Tab.0.bottom" timestamp="1604705283532">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="375" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604504393079" />
-    <state width="2380" height="375" key="GridCell.Tab.0.center" timestamp="1604504393079">
+    <state width="2380" height="375" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604705283532" />
+    <state width="2380" height="375" key="GridCell.Tab.0.center" timestamp="1604705283531">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="375" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604504393079" />
-    <state width="2380" height="375" key="GridCell.Tab.0.left" timestamp="1604504393079">
+    <state width="2380" height="375" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604705283531" />
+    <state width="2380" height="375" key="GridCell.Tab.0.left" timestamp="1604705283531">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="375" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604504393079" />
-    <state width="2380" height="375" key="GridCell.Tab.0.right" timestamp="1604504393079">
+    <state width="2380" height="375" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604705283531" />
+    <state width="2380" height="375" key="GridCell.Tab.0.right" timestamp="1604705283532">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="375" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604504393079" />
+    <state width="2380" height="375" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604705283532" />
     <state x="711" y="325" key="SettingsEditor" timestamp="1604500778335">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -699,10 +700,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603582131606" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1604535768971">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1604537154209">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604535768971" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604537154209" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>

@@ -1,6 +1,6 @@
 package inheritance;
 
-public class OverrideingTest {
+public class OverridingTest {
 
     public static void main(String[] args) {
         Customer customerLee = new Customer(10010, "이순신");
@@ -19,6 +19,7 @@ public class OverrideingTest {
         Customer customerNo = new VIPCustomer(10030, "나몰라");
         customerNo.bonusPoint = 10000;
 
+        //가상메서드(virtual method) : 재정의되면 다른 주소(인스턴스의 주소)를 가진다.
         System.out.println(customerNo.showCustomerInfo() + "지불금액은 " + customerNo.calcPrice(10000) + "원 입니다.");
     }
 }
