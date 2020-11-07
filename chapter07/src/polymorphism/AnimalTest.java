@@ -53,6 +53,7 @@ class Eagle extends Animal {
 public class AnimalTest {
 
     public static void main(String[] args) {
+        //업캐스팅
         Animal hAmimal = new Human();
         Animal tAmimal = new Tiger();
         Animal eAmimal = new Eagle();
@@ -71,7 +72,7 @@ public class AnimalTest {
 //        test.moveAnimal(tAmimal);
 //        test.moveAnimal(eAmimal);
 
-        ArrayList<Animal> animalList = new ArrayList<Animal>();
+        ArrayList<Animal> animalList = new ArrayList<>();
         animalList.add(hAmimal);
         animalList.add(tAmimal);
         animalList.add(eAmimal);
@@ -103,7 +104,9 @@ public class AnimalTest {
         }
     }
 
+    //다형성
     public void moveAnimal(Animal animal) {
+        //가상메서드(virtual method)
         animal.move();
     }
 }
