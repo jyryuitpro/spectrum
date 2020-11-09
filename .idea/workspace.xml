@@ -159,6 +159,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.OverridingTest" />
@@ -239,13 +250,7 @@
       <workItem from="1604534672921" duration="3061000" />
       <workItem from="1604704562204" duration="3941000" />
       <workItem from="1604911957803" duration="1473000" />
-    </task>
-    <task id="LOCAL-00031" summary="59. 람다식 - 2">
-      <created>1602982707418</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1602982707418</updated>
+      <workItem from="1604913790071" duration="2556000" />
     </task>
     <task id="LOCAL-00032" summary="60. 스트림 - 1">
       <created>1603102449833</created>
@@ -583,7 +588,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604708552344</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="30. 다형성 - 2">
+      <created>1604914124842</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1604914124843</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -686,10 +698,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603582131606" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1604708556872">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1604914128463">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604708556872" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604914128463" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>

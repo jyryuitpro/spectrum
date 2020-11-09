@@ -59,13 +59,14 @@ public class AnimalTest {
         Animal eAmimal = new Eagle();
 
 //        Eagle human = (Eagle)hAmimal;
+
         if (hAmimal instanceof Human) {
             Human human = (Human)hAmimal;
             human.readBooks();
         }
 
-//        Human human = (Human)hAmimal;
-//        human.readBooks();
+        Human human = (Human)hAmimal;
+        human.readBooks();
 
 //        AnimalTest test = new AnimalTest();
 //        test.moveAnimal(hAmimal);
@@ -91,6 +92,7 @@ public class AnimalTest {
             Animal animal = animalList.get(i);
 
             if (animal instanceof Human) {
+                //명시적 형변환
                 Human human = (Human)animal;
                 human.readBooks();
             } else if (animal instanceof Tiger) {
