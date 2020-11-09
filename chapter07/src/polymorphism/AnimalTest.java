@@ -80,9 +80,10 @@ public class AnimalTest {
         AnimalTest test = new AnimalTest();
         test.testDownCasting(animalList);
 
-//        for (Animal animal : animalList) {
-//            animal.move();
-//        }
+        for (Animal animal : animalList) {
+            //가상메서드(virtual method)
+            animal.move();
+        }
     }
 
     public void testDownCasting(ArrayList<Animal> animalList) {
