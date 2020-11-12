@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="31. 다운 캐스팅과 instanceof">
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="33. 추상클래스란">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter08/src/abstractex/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/abstractex/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter08/src/abstractex/ComputerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/abstractex/ComputerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/template/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/template/Car.java" afterDir="false" />
     </list>
     <list id="9a34e99c-d08c-4190-8153-e8bb49174dd1" name="06. 클래스와 객체 - 06. 코딩해 보세요 (1)" comment="" />
     <list id="06fef8c0-a586-425f-bcd5-d9e8a811f77a" name="08. 클래스와 객체 - 08. 참조 자료형" comment="" />
@@ -160,15 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -254,14 +251,9 @@
       <workItem from="1604704562204" duration="3941000" />
       <workItem from="1604911957803" duration="1473000" />
       <workItem from="1604913790071" duration="2896000" />
-      <workItem from="1605101320066" duration="3782000" />
-    </task>
-    <task id="LOCAL-00033" summary="61. 스트림 - 2">
-      <created>1603104035483</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1603104035483</updated>
+      <workItem from="1605101320066" duration="3921000" />
+      <workItem from="1605137211198" duration="421000" />
+      <workItem from="1605149753971" duration="1848000" />
     </task>
     <task id="LOCAL-00034" summary="62. 코딩해 보세요">
       <created>1603105666573</created>
@@ -599,7 +591,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604917166892</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="33. 추상클래스란">
+      <created>1605106775524</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1605106775524</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +617,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="04. 클래스와 객체 - 04. 함수와 메서드 - 2" />
     <MESSAGE value="05. 클래스와 객체 - 05. 인스턴스, 힙 메모리" />
     <MESSAGE value="06. 클래스와 객체 - 06. 코딩해 보세요 (1)" />
     <MESSAGE value="07. 클래스와 객체 - 07. 생성자, 생성자 오버로딩" />
@@ -643,7 +641,8 @@
     <MESSAGE value="29. 다형성 - 1" />
     <MESSAGE value="30. 다형성 - 2" />
     <MESSAGE value="31. 다운 캐스팅과 instanceof" />
-    <option name="LAST_COMMIT_MESSAGE" value="31. 다운 캐스팅과 instanceof" />
+    <MESSAGE value="33. 추상클래스란" />
+    <option name="LAST_COMMIT_MESSAGE" value="33. 추상클래스란" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
@@ -702,10 +701,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603582131606" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1604917176706">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1605106780271">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1604917176706" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605106780271" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
