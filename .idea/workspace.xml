@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="33. 추상클래스란">
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="34. 추상클래스 응용 - 템플릿 메서드">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter08/src/template/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/template/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/gamelevel/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/gamelevel/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/src/gamelevel/PlayerLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/gamelevel/PlayerLevel.java" afterDir="false" />
     </list>
     <list id="9a34e99c-d08c-4190-8153-e8bb49174dd1" name="06. 클래스와 객체 - 06. 코딩해 보세요 (1)" comment="" />
     <list id="06fef8c0-a586-425f-bcd5-d9e8a811f77a" name="08. 클래스와 객체 - 08. 참조 자료형" comment="" />
@@ -253,14 +254,9 @@
       <workItem from="1604913790071" duration="2896000" />
       <workItem from="1605101320066" duration="3921000" />
       <workItem from="1605137211198" duration="421000" />
-      <workItem from="1605149753971" duration="1848000" />
-    </task>
-    <task id="LOCAL-00034" summary="62. 코딩해 보세요">
-      <created>1603105666573</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1603105666573</updated>
+      <workItem from="1605149753971" duration="3673000" />
+      <workItem from="1605223318722" duration="1718000" />
+      <workItem from="1605245222244" duration="3252000" />
     </task>
     <task id="LOCAL-00035" summary="63. 예외와 예외 처리 - 1">
       <created>1603196025440</created>
@@ -598,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605106775524</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="34. 추상클래스 응용 - 템플릿 메서드">
+      <created>1605152357635</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1605152357636</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,7 +620,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="05. 클래스와 객체 - 05. 인스턴스, 힙 메모리" />
     <MESSAGE value="06. 클래스와 객체 - 06. 코딩해 보세요 (1)" />
     <MESSAGE value="07. 클래스와 객체 - 07. 생성자, 생성자 오버로딩" />
     <MESSAGE value="08. 클래스와 객체 - 08. 참조 자료형" />
@@ -642,7 +644,8 @@
     <MESSAGE value="30. 다형성 - 2" />
     <MESSAGE value="31. 다운 캐스팅과 instanceof" />
     <MESSAGE value="33. 추상클래스란" />
-    <option name="LAST_COMMIT_MESSAGE" value="33. 추상클래스란" />
+    <MESSAGE value="34. 추상클래스 응용 - 템플릿 메서드" />
+    <option name="LAST_COMMIT_MESSAGE" value="34. 추상클래스 응용 - 템플릿 메서드" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
@@ -701,10 +704,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603582131606" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1605106780271">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1605152364506">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605106780271" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605152364506" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601595729979">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
