@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="35. 템플릿 메서드 활용하기">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter08/src/gamelevel/MainBoardPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter08/src/gamelevel/MainBoardPlay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter09/src/interfaceex/CalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter09/src/interfaceex/CalcTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="37. 인터페이스란" />
     <list id="9a34e99c-d08c-4190-8153-e8bb49174dd1" name="06. 클래스와 객체 - 06. 코딩해 보세요 (1)" comment="" />
     <list id="06fef8c0-a586-425f-bcd5-d9e8a811f77a" name="08. 클래스와 객체 - 08. 참조 자료형" comment="" />
     <list id="b6d7502b-f223-4e08-ae99-6a43574ed047" name="28. 매서드 오버라이딩" comment="" />
@@ -261,14 +257,7 @@
       <workItem from="1605245222244" duration="3585000" />
       <workItem from="1605262244958" duration="5000" />
       <workItem from="1605269468547" duration="955000" />
-      <workItem from="1605308484882" duration="1600000" />
-    </task>
-    <task id="LOCAL-00036" summary="64. 예외와 예외 처리 - 2">
-      <created>1603197444005</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1603197444005</updated>
+      <workItem from="1605308484882" duration="2463000" />
     </task>
     <task id="LOCAL-00037" summary="65. 다양한 예외 처리">
       <created>1603284291571</created>
@@ -606,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605249257654</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="37. 인터페이스란">
+      <created>1605310102641</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1605310102641</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +621,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07. 클래스와 객체 - 07. 생성자, 생성자 오버로딩" />
     <MESSAGE value="08. 클래스와 객체 - 08. 참조 자료형" />
     <MESSAGE value="09. 클래스와 객체 - 09. 정보 은닉 - 1" />
     <MESSAGE value="10. 클래스와 객체 - 10. 정보 은닉 - 2" />
@@ -650,7 +645,8 @@
     <MESSAGE value="33. 추상클래스란" />
     <MESSAGE value="34. 추상클래스 응용 - 템플릿 메서드" />
     <MESSAGE value="35. 템플릿 메서드 활용하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="35. 템플릿 메서드 활용하기" />
+    <MESSAGE value="37. 인터페이스란" />
+    <option name="LAST_COMMIT_MESSAGE" value="37. 인터페이스란" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
