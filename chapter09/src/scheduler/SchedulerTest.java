@@ -24,6 +24,7 @@ public class SchedulerTest {
             return;
         }
 
+        //다형성
         scheduler.getNextCall();
         scheduler.sendCallToAgent();
     }
