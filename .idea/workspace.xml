@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="38. 인터페이스를 활용한 다형성 구현 - 1">
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="39. 인터페이스를 활용한 다형성 구현 - 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter09/src/scheduler/SchedulerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter09/src/scheduler/SchedulerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter09/src/interfaceex/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter09/src/interfaceex/Calc.java" afterDir="false" />
     </list>
     <list id="9a34e99c-d08c-4190-8153-e8bb49174dd1" name="06. 클래스와 객체 - 06. 코딩해 보세요 (1)" comment="" />
     <list id="06fef8c0-a586-425f-bcd5-d9e8a811f77a" name="08. 클래스와 객체 - 08. 참조 자료형" comment="" />
@@ -93,9 +93,22 @@
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter07\src\inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CalcTest">
+  <component name="RunManager" selected="Application.CustomerTest">
     <configuration name="CalcTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interfaceex.CalcTest" />
+      <module name="chapter09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaceex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaceex.CustomerTest" />
       <module name="chapter09" />
       <extension name="coverage">
         <pattern>
@@ -133,19 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap02.UserVariable" />
-      <module name="chapter02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VariableDecl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap02.VariableDecl" />
       <module name="chapter02" />
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomerTest" />
         <item itemvalue="Application.CalcTest" />
         <item itemvalue="Application.MainBoardPlay" />
         <item itemvalue="Application.OverridingTest" />
         <item itemvalue="Application.VariableDecl" />
-        <item itemvalue="Application.UserVariable" />
       </list>
     </recent_temporary>
   </component>
@@ -259,14 +259,7 @@
       <workItem from="1605262244958" duration="5000" />
       <workItem from="1605269468547" duration="955000" />
       <workItem from="1605308484882" duration="2707000" />
-      <workItem from="1605396400912" duration="2206000" />
-    </task>
-    <task id="LOCAL-00038" summary="66. 자바 입출력 스트림">
-      <created>1603285472638</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1603285472638</updated>
+      <workItem from="1605396400912" duration="3558000" />
     </task>
     <task id="LOCAL-00039" summary="67. 표준 입출력">
       <created>1603287908509</created>
@@ -604,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605311803504</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="39. 인터페이스를 활용한 다형성 구현 - 2">
+      <created>1605399725851</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1605399725851</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,7 +623,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="09. 클래스와 객체 - 09. 정보 은닉 - 1" />
     <MESSAGE value="10. 클래스와 객체 - 10. 정보 은닉 - 2" />
     <MESSAGE value="11. 클래스와 객체 - 11. this에 대하여" />
     <MESSAGE value="12. 클래스와 객체 - 12. 객체간 협력" />
@@ -648,7 +647,8 @@
     <MESSAGE value="35. 템플릿 메서드 활용하기" />
     <MESSAGE value="37. 인터페이스란" />
     <MESSAGE value="38. 인터페이스를 활용한 다형성 구현 - 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="38. 인터페이스를 활용한 다형성 구현 - 1" />
+    <MESSAGE value="39. 인터페이스를 활용한 다형성 구현 - 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="39. 인터페이스를 활용한 다형성 구현 - 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
@@ -707,10 +707,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603582131606" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1605311815884">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1605399734310">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605311815884" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605399734310" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605249235576">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>

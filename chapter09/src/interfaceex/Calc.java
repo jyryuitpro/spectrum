@@ -15,11 +15,13 @@ public interface Calc {
 
     int divide(int num1, int num2);
 
+    //디폴트 메서드
     default void description() {
         System.out.println("정수 계산기를 구현합니다.");
         myMethod();
     }
 
+    //정적 메서드
     static int total(int[] arr) {
         int total = 0;
 
@@ -30,10 +32,12 @@ public interface Calc {
         return total;
     }
 
+    //with 디폴트 메서드 (Java 9)
     private void myMethod() {
         System.out.println("private method");
     }
 
+    //with 정적 메스드 (Java 9)
     private static void myStaticMethod(){
         System.out.println("private static method");
     }

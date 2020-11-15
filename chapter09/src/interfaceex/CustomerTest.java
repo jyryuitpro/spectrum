@@ -9,10 +9,12 @@ public class CustomerTest {
         customer.order();
         customer.sayHello();
 
+        //다형성
         Buy buyer = customer;
         buyer.buy();
         buyer.order();
 
+        //다형성
         Sell seller = customer;
         seller.sell();
         seller.order();
