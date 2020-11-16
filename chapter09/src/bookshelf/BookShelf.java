@@ -14,6 +14,6 @@ public class BookShelf extends Shelf implements Queue {
 
     @Override
     public int getSize() {
-        return super.getCount();
+        return getCount();
     }
 }

@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="39. 인터페이스를 활용한 다형성 구현 - 2">
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="40. 인터페이스의 요소들 - 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter09/src/interfaceex/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter09/src/interfaceex/Calc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter09/src/interfaceex/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter09/src/interfaceex/MyClass.java" afterDir="false" />
     </list>
     <list id="9a34e99c-d08c-4190-8153-e8bb49174dd1" name="06. 클래스와 객체 - 06. 코딩해 보세요 (1)" comment="" />
     <list id="06fef8c0-a586-425f-bcd5-d9e8a811f77a" name="08. 클래스와 객체 - 08. 참조 자료형" comment="" />
@@ -159,13 +159,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -259,14 +261,8 @@
       <workItem from="1605262244958" duration="5000" />
       <workItem from="1605269468547" duration="955000" />
       <workItem from="1605308484882" duration="2707000" />
-      <workItem from="1605396400912" duration="3558000" />
-    </task>
-    <task id="LOCAL-00039" summary="67. 표준 입출력">
-      <created>1603287908509</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1603287908509</updated>
+      <workItem from="1605396400912" duration="3805000" />
+      <workItem from="1605521190907" duration="1681000" />
     </task>
     <task id="LOCAL-00040" summary="68. 바이트 단위 입출력 스트림">
       <created>1603291639513</created>
@@ -604,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605399725851</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="40. 인터페이스의 요소들 - 1">
+      <created>1605401305443</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1605401305443</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,7 +626,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10. 클래스와 객체 - 10. 정보 은닉 - 2" />
     <MESSAGE value="11. 클래스와 객체 - 11. this에 대하여" />
     <MESSAGE value="12. 클래스와 객체 - 12. 객체간 협력" />
     <MESSAGE value="14. 클래스와 객체 - 14. static 변수, 메서드" />
@@ -648,7 +650,8 @@
     <MESSAGE value="37. 인터페이스란" />
     <MESSAGE value="38. 인터페이스를 활용한 다형성 구현 - 1" />
     <MESSAGE value="39. 인터페이스를 활용한 다형성 구현 - 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="39. 인터페이스를 활용한 다형성 구현 - 2" />
+    <MESSAGE value="40. 인터페이스의 요소들 - 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="40. 인터페이스의 요소들 - 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
@@ -683,22 +686,22 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="456" key="Github.UntrackedFilesDialog/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449350525" />
-    <state width="2380" height="375" key="GridCell.Tab.0.bottom" timestamp="1605311887093">
+    <state width="2380" height="375" key="GridCell.Tab.0.bottom" timestamp="1605401326295">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="375" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605311887093" />
-    <state width="2380" height="375" key="GridCell.Tab.0.center" timestamp="1605311887093">
+    <state width="2380" height="375" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605401326295" />
+    <state width="2380" height="375" key="GridCell.Tab.0.center" timestamp="1605401326295">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="375" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605311887093" />
-    <state width="2380" height="375" key="GridCell.Tab.0.left" timestamp="1605311887093">
+    <state width="2380" height="375" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605401326295" />
+    <state width="2380" height="375" key="GridCell.Tab.0.left" timestamp="1605401326295">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="375" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605311887093" />
-    <state width="2380" height="375" key="GridCell.Tab.0.right" timestamp="1605311887093">
+    <state width="2380" height="375" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605401326295" />
+    <state width="2380" height="375" key="GridCell.Tab.0.right" timestamp="1605401326295">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="375" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605311887093" />
+    <state width="2380" height="375" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605401326295" />
     <state x="711" y="325" key="SettingsEditor" timestamp="1604500778335">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -707,10 +710,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603582131606" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1605399734310">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1605401310950">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605399734310" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605401310950" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605249235576">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
