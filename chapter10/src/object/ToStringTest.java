@@ -13,10 +13,7 @@ class Book implements Cloneable {
 
     @Override
     public String toString() {
-        return "Book{" +
-                "title='" + title + '\'' +
-                ", author='" + author + '\'' +
-                '}';
+        return author + ", " + title;
     }
 
     @Override
@@ -35,12 +32,12 @@ public class ToStringTest {
 
     public static void main(String[] args) throws CloneNotSupportedException {
         Book book = new Book("토지", "박경리");
-//        System.out.println(book);
+        System.out.println(book);
 
         String str = new String("토지");
-//        System.out.println(str.toString());
+        System.out.println(str.toString());
 
-        Book book2 = (Book)book.clone();
-        System.out.println(book2);
+//        Book book2 = (Book)book.clone();
+//        System.out.println(book2);
     }
 }
