@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="41. 인터페이스의 요소들 - 2">
+    <list default="true" id="54cc89ee-90b5-47a6-82ec-2d4e4567ffdf" name="Default Changelist" comment="43. Object 클래스 - 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter10/src/object/EqualsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/src/object/EqualsTest.java" afterDir="false" />
     </list>
     <list id="9a34e99c-d08c-4190-8153-e8bb49174dd1" name="06. 클래스와 객체 - 06. 코딩해 보세요 (1)" comment="" />
     <list id="06fef8c0-a586-425f-bcd5-d9e8a811f77a" name="08. 클래스와 객체 - 08. 참조 자료형" comment="" />
@@ -92,7 +93,7 @@
       <recent name="C:\Users\jyryu\IdeaProjects\spectrum\chapter07\src\inheritance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ToStringTest">
+  <component name="RunManager" selected="Application.EqualsTest">
     <configuration name="CalcTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interfaceex.CalcTest" />
       <module name="chapter09" />
@@ -119,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainBoardPlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gamelevel.MainBoardPlay" />
-      <module name="chapter08" />
+    <configuration name="EqualsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="object.EqualsTest" />
+      <module name="chapter10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gamelevel.*" />
+          <option name="PATTERN" value="object.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverridingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.OverridingTest" />
-      <module name="chapter07" />
+    <configuration name="MainBoardPlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gamelevel.MainBoardPlay" />
+      <module name="chapter08" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inheritance.*" />
+          <option name="PATTERN" value="gamelevel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EqualsTest" />
         <item itemvalue="Application.ToStringTest" />
         <item itemvalue="Application.CustomerTest" />
         <item itemvalue="Application.CalcTest" />
         <item itemvalue="Application.MainBoardPlay" />
-        <item itemvalue="Application.OverridingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -260,14 +261,9 @@
       <workItem from="1605308484882" duration="2707000" />
       <workItem from="1605396400912" duration="3805000" />
       <workItem from="1605521190907" duration="2008000" />
-      <workItem from="1605920386448" duration="668000" />
-    </task>
-    <task id="LOCAL-00041" summary="69. 문자 단위 입출력 스트림">
-      <created>1603292620626</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1603292620626</updated>
+      <workItem from="1605920386448" duration="898000" />
+      <workItem from="1606397502950" duration="761000" />
+      <workItem from="1606398709774" duration="820000" />
     </task>
     <task id="LOCAL-00042" summary="70. 보조 스트림">
       <created>1603322394327</created>
@@ -605,7 +601,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605525996152</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="43. Object 클래스 - 1">
+      <created>1605921262969</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1605921262970</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,7 +627,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12. 클래스와 객체 - 12. 객체간 협력" />
     <MESSAGE value="14. 클래스와 객체 - 14. static 변수, 메서드" />
     <MESSAGE value="15. 클래스와 객체 - 15. static 응용 - singleton pattern" />
     <MESSAGE value="17. 배열이란 - 1 &amp; 18. 배열이란 - 2" />
@@ -649,7 +651,8 @@
     <MESSAGE value="39. 인터페이스를 활용한 다형성 구현 - 2" />
     <MESSAGE value="40. 인터페이스의 요소들 - 1" />
     <MESSAGE value="41. 인터페이스의 요소들 - 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="41. 인터페이스의 요소들 - 2" />
+    <MESSAGE value="43. Object 클래스 - 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="43. Object 클래스 - 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="325" key="#Project_Structure" timestamp="1601449325990">
@@ -684,22 +687,22 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1037" y="456" key="Github.UntrackedFilesDialog/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1601449350525" />
-    <state width="2380" height="375" key="GridCell.Tab.0.bottom" timestamp="1605401326295">
+    <state width="2380" height="375" key="GridCell.Tab.0.bottom" timestamp="1606399111930">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="375" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605401326295" />
-    <state width="2380" height="375" key="GridCell.Tab.0.center" timestamp="1605401326295">
+    <state width="2380" height="375" key="GridCell.Tab.0.bottom/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1606399111930" />
+    <state width="2380" height="375" key="GridCell.Tab.0.center" timestamp="1606399111930">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="375" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605401326295" />
-    <state width="2380" height="375" key="GridCell.Tab.0.left" timestamp="1605401326295">
+    <state width="2380" height="375" key="GridCell.Tab.0.center/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1606399111930" />
+    <state width="2380" height="375" key="GridCell.Tab.0.left" timestamp="1606399111929">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="375" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605401326295" />
-    <state width="2380" height="375" key="GridCell.Tab.0.right" timestamp="1605401326295">
+    <state width="2380" height="375" key="GridCell.Tab.0.left/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1606399111929" />
+    <state width="2380" height="375" key="GridCell.Tab.0.right" timestamp="1606399111930">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="2380" height="375" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605401326295" />
+    <state width="2380" height="375" key="GridCell.Tab.0.right/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1606399111930" />
     <state x="711" y="325" key="SettingsEditor" timestamp="1604500778335">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -708,10 +711,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1122" y="667" key="VCS.ChangelistChooser/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1603582131606" />
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1605526003449">
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2" timestamp="1605921266589">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605526003449" />
+    <state x="823" y="484" key="Vcs.Push.Dialog.v2/62.0.2498.1440/-2498.7.2498.1440@62.0.2498.1440" timestamp="1605921266589" />
     <state x="1097" y="697" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605249235576">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>

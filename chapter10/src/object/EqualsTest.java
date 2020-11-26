@@ -39,27 +39,30 @@ public class EqualsTest {
         String str1 = new String("abc");
         String str2 = new String("abc");
 
+        //힙 메모리 주소 비교
 //        System.out.println(str1 == str2);
+        //문자열 비교 (재정의)
 //        System.out.println(str1.equals(str2));
 
         Student Lee = new Student(100, "이순신");
         Student Lee2 = Lee;
         Student Shin = new Student(100, "이순신");
 
-//        System.out.println(Lee == Shin);
-//        System.out.println(Lee.equals(Shin));
+        System.out.println(Lee == Lee2);
+        System.out.println(Lee == Shin);
+        System.out.println(Lee.equals(Shin));
 
 //        System.out.println(Lee.hashCode());
 //        System.out.println(Shin.hashCode());
 
-        Integer i1 = new Integer(100);
-        Integer i2 = 100;
+//        Integer i1 = new Integer(100);
+//        Integer i2 = 100;
 
-        System.out.println(i1.equals(i2));
-        System.out.println(i1.hashCode());
-        System.out.println(i2.hashCode());
+//        System.out.println(i1.equals(i2));
+//        System.out.println(i1.hashCode());
+//        System.out.println(i2.hashCode());
 
-        System.out.println(System.identityHashCode(i1));
-        System.out.println(System.identityHashCode(i2));
+//        System.out.println(System.identityHashCode(i1));
+//        System.out.println(System.identityHashCode(i2));
     }
 }
